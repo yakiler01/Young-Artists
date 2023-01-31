@@ -1,0 +1,167 @@
+﻿@model Young_Artists_Customers.Models.Customer
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Customer</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CustomerId" class="control-label" hidden></label>
+                <input asp-for="CustomerId" class="form-control" hidden />
+                <span asp-validation-for="CustomerId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CustomerName" class="control-label"></label>
+                <input asp-for="CustomerName" class="form-control" />
+                <span asp-validation-for="CustomerName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CustomerEmail" class="control-label"></label>
+                <input asp-for="CustomerEmail" class="form-control" type="email"/>                        
+                <span asp-validation-for="CustomerEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CustomerPassword" class="control-label"></label>
+                <input asp-for="CustomerPassword" class="form-control" />
+              <span asp-validation-for="CustomerPassword" class="text-danger"></span>              
+            </div>
+            <div class="form-group">
+                <label asp-for="CustomerPhone" class="control-label"></label>
+                <input asp-for="CustomerPhone" class="form-control" />
+                <span asp-validation-for="CustomerPhone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CustomerRegion" class="control-label"></label>
+@*                <input asp-for="CustomerRegion" class="form-control" id="CustomerRegionInput" hidden />
+                <select id="CustomerRegionSelected" name="CustomerRegion" class="form-select">*@
+                <input asp-for="CustomerRegion" class="form-control" id="CustomerRegionInput" hidden />
+                <select id="CustomerRegionSelected">
+                    <optgroup label="請選擇居住地區">
+                    <option selected disabled hidden>請選擇居住地區</option>
+                    <option value="基隆市">基隆市</option>
+                    <option value="基隆市">台北市</option>
+                    <option value="基隆市">新北市</option>
+                    <option value="基隆市">桃園縣</option>
+                    <option value="基隆市">新竹市</option>
+                    <option value="基隆市">新竹縣</option>
+                        <option value="基隆市">苗栗縣</option>
+                        <option value ="基隆市">台中市</option>
+                        <option value="基隆市">彰化縣</option>
+                        <option value="基隆市">南投縣</option>
+                        <option value="基隆市">雲林縣</option>
+                    <option>嘉義市</option>
+                    <option>嘉義縣</option>
+                    <option>台南市</option>
+                    <option>高雄市</option>
+                    <option>屏東縣</option>
+                    <option>台東縣</option>
+                    <option>花蓮縣</option>
+                    <option>宜蘭縣</option>
+                    <option>澎湖縣</option>
+                    <option>金門縣</option>
+                    <option>連江縣</option>
+                    <option>其他</option>
+                    </optgroup>
+                </select>
+                <span asp-validation-for="CustomerRegion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CustomerAddress" class="control-label"></label>
+                <input asp-for="CustomerAddress" class="form-control" />
+                <span asp-validation-for="CustomerAddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CustomerBirthDate" class="control-label"></label>
+                <input asp-for="CustomerBirthDate" class="form-control" type="date"/>
+                <span asp-validation-for="CustomerBirthDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CustomerGender" class="control-label"></label>
+                @*<input asp-for="CustomerGender" class="form-control" id="CustomerGenderInput" hidden />
+                <select id="CustomerGenderSelected" name="CustomerGender" class="form-select">*@
+                <input asp-for="CustomerGender" class="form-control" id="CustomerGenderInput" hidden />
+                <select id="CustomerGenderSelected">
+                    <optgroup label="請選擇生理性別">
+                    <option selected disabled hidden>請選擇生理性別</option>
+                    <option value="M">男</option>
+                    <option value="F">女</option>
+                    </optgroup>
+                </select>
+                <span asp-validation-for="CustomerGender" class="text-danger"></span>                
+            </div>
+            <div class="form-group">
+                <label asp-for="CustomerCreatTimestamp" class="control-label" hidden></label>
+                <input asp-for="CustomerCreatTimestamp" class="form-control" hidden />
+                <span asp-validation-for="CustomerCreatTimestamp" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CustomerUpdateTimestamp" class="control-label" hidden></label>
+                <input asp-for="CustomerUpdateTimestamp" class="form-control" hidden />
+                <span asp-validation-for="CustomerUpdateTimestamp" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+    <div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+@*    <script>
+    // 獲取 <select id="CustomerRegionSelected" > 標籤
+    let CustomerRegionSelected = document.querySelector("#CustomerRegionSelected");
+    // 獲取 <input asp-for="CustomerRegion" class="form-control" id="CustomerRegionInput" hidden /> 標籤
+    let CustomerRegionSelected = document.querySelector("#CustomerRegionInput");
+    // select 的 value改變的時候 讓input.value = select.value
+        CustomerRegionSelected.addEventListener("change", function(){
+            CustomerRegionInput.value=CustomerRegionSelected.value;
+        })
+
+     // 獲取 <select id="CustomerGenderSelected" > 標籤
+     let CustomerGenderSelected = document.querySelector("#CustomerGenderSelected");
+     // 獲取 <input asp-for="CustomerGender" class="form-control" id="CustomerGenderInput" hidden /> 標籤
+     let CustomerGenderInput = document.querySelector("#CustomerGenderInput");
+     // select 的 value改變的時候 讓input.value = select.value
+     CustomerGenderSelected.addEventListener("change", function(){
+         CustomerGenderInput.value = CustomerGenderSelected.value;
+     })
+</script>*@
+
+
+}
+
+
+    <script>
+        // 獲取 <select id="CustomerRegionSelected" > 標籤
+        let CustomerRegionSelected = document.querySelector("#CustomerRegionSelected");
+        // 獲取 <input asp-for="CustomerRegion" class="form-control" id="CustomerRegionInput" hidden /> 標籤
+        let CustomerRegionInput = document.querySelector("#CustomerRegionInput");
+        // select 的 value改變的時候 讓input.value = select.value
+        CustomerRegionSelected.addEventListener("change", function () {
+            CustomerRegionInput.value = CustomerRegionSelected.value;
+        })
+
+        // 獲取 <select id="CustomerGenderSelected" > 標籤
+        let CustomerGenderSelected = document.querySelector("#CustomerGenderSelected");
+        // 獲取 <input asp-for="CustomerGender" class="form-control" id="CustomerGenderInput" hidden /> 標籤
+        let CustomerGenderInput = document.querySelector("#CustomerGenderInput");
+        CustomerGenderSelected.addEventListener("change", function () {
+            CustomerGenderInput.value = CustomerGenderSelected.value;
+        })
+
+    </script>
+

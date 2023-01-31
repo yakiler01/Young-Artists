@@ -1,0 +1,53 @@
+﻿@model Young_Artists_Customers.Models.Administrator
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>新增管理員帳密</h1>
+
+<h4>輸入管理員帳密</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="AdministratorId" class="control-label" hidden></label>
+                <input asp-for="AdministratorId" class="form-control" hidden/>
+                <span asp-validation-for="AdministratorId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AdministratorAccount" class="control-label"></label>
+                <input asp-for="AdministratorAccount" class="form-control" />
+                <span asp-validation-for="AdministratorAccount" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AdministratorPassword" class="control-label"></label>
+                <input asp-for="AdministratorPassword" class="form-control" />
+                <span asp-validation-for="AdministratorPassword" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AdministratorCreatTimestamp" class="control-label" hidden></label>
+                <input asp-for="AdministratorCreatTimestamp" class="form-control" hidden />
+                <span asp-validation-for="AdministratorCreatTimestamp" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AdministratorUpdateTimestamp" class="control-label" hidden></label>
+                <input asp-for="AdministratorUpdateTimestamp" class="form-control" hidden />
+                <span asp-validation-for="AdministratorUpdateTimestamp" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="List">取消</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,107 @@
+﻿@model IEnumerable<Young_Artists_Customers.Models.Customer>
+
+@{
+    ViewData["Title"] = "List";
+}
+
+<h1>客戶資料一覽表</h1>
+
+@using (Html.BeginForm())
+{
+    <p>
+        關鍵字
+        @Html.TextBox("txtKeyword")
+        <input type="submit" value="查詢" />
+    </p>
+}
+
+<p>
+    <a asp-action="Create">新增客戶</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                序
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CustomerName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CustomerEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CustomerPassword)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CustomerPhone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CustomerRegion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CustomerAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CustomerBirthDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CustomerGender)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CustomerCreatTimestamp)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CustomerUpdateTimestamp)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            int count = 0;
+            foreach (var item in Model) {
+                count++;
+        <tr>
+            <td>
+                @count
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustomerName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustomerEmail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustomerPassword)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustomerPhone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustomerRegion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustomerAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustomerBirthDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustomerGender)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustomerCreatTimestamp)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustomerUpdateTimestamp)
+            </td>
+            <td>
+                        @Html.ActionLink("修改", "Edit", "Customer", new { id = item.CustomerId })   |
+                        @Html.ActionLink("刪除", "Delete", "Customer", new { id = item.CustomerId },
+                new { onclick = "return confirm('確定要刪除嗎?')" })                
+            </td>
+        </tr>
+}}
+    </tbody>
+</table>
