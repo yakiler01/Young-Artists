@@ -1,0 +1,63 @@
+﻿@model IEnumerable<Young_Artists.Models.Detail>
+
+@{
+    ViewData["Title"] = "List";
+}
+
+<h1>活動異動公告一覽</h1>
+
+<p>
+    <a asp-action="Create">新增異動資訊</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                序號
+            </th>
+            <th>
+                原活動時間
+            </th>
+            <th>
+                活動名稱
+            </th>
+            <th>
+                現在狀態
+            </th>
+            <th>
+                詳細資訊
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            int count = 0;
+            foreach (var item in Model)
+            {
+                count++;
+                <tr>
+                    <td>
+                        @count
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Eventtime)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.EventId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.State)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Reason)
+                    </td>
+                    <td>
+                        @Html.ActionLink("修改", "Edit", new {  id=item.DetailsId }) |
+                        @Html.ActionLink("刪除", "Delete" , new { id=item.DetailsId } ,new { onclick ="return confirm('確定要刪除嗎?')"})
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

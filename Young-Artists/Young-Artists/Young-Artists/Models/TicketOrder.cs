@@ -12,5 +12,6 @@ namespace Young_Artists.Models
         public string? OrderUpdateTimestamp { get; set; }
         public int? OrderUpdateId { get; set; }
         public int? OrderState { get; set; }
+        public int? CustomerId { get; set; }
     }
 }
