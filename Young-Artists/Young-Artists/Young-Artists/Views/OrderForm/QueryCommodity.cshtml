@@ -1,0 +1,77 @@
+﻿@model IEnumerable<Young_Artists.Models.Commodity>
+
+@{
+    ViewData["Title"] = "QueryCommodity";
+}
+
+<h1>QueryCommodity</h1>
+
+<p>
+    <a asp-action="List">返回</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CommodityName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CommodityNarrative)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CommodityNum)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CommodityImage)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CommodityStart)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CommodityClassification)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CommodityState)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CommodityName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CommodityNarrative)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CommodityNum)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CommodityImage)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CommodityStart)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CommodityClassification)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CommodityState)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,88 @@
+﻿@model IEnumerable<Young_Artists.Models.Commodity>
+
+@{
+    ViewData["Title"] = "List";
+}
+
+<h1>商品清單</h1>
+
+<p>
+    <a asp-action="Create">新增</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                序
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CommodityName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CommodityNarrative)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CommodityNum)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CommodityPrice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CommodityImage)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CommodityStart)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CommodityClassification)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CommodityState)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            int count = 0;
+            foreach (var item in Model) {
+                count++;
+        <tr>
+            <td>
+                @count
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CommodityName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CommodityNarrative)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CommodityNum)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CommodityPrice)
+            </td>
+            <td>
+                <img src="~/Images/@item.CommodityImage" width="80" height="50" />
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CommodityStart)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CommodityClassification)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CommodityState)
+            </td>
+                <td>
+                    @Html.ActionLink("修改", "Edit", new { id=item.Id  }) |
+                    @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("刪除", "Delete","Commodity"
+                , new { id=item.Id },new {onclick = "return confirm('確定要刪除嗎?')"})
+                </td>
+        </tr>
+            }
+}
+    </tbody>
+</table>
