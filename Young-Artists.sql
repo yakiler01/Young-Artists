@@ -423,6 +423,7 @@ CREATE TABLE [dbo].[ticket_order](
 	[order_update_timestamp] [nvarchar](100) NULL,
 	[order_update_id] [int] NULL,
 	[order_state] [int] NULL,
+	[customer_id] [int] NULL,
  CONSTRAINT [PK_ticket_order] PRIMARY KEY CLUSTERED 
 (
 	[id] ASC
