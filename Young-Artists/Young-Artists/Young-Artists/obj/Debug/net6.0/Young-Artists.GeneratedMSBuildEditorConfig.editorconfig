@@ -15,6 +15,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\iSpan\Young-Artists\Young-Artists\Young-Artists\Young-Artists
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/iSpan/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/Announcement/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5ub3VuY2VtZW50XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/Announcement/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5ub3VuY2VtZW50XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/Announcement/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5ub3VuY2VtZW50XExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/iSpan/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/Commodity/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9kaXR5XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -37,6 +49,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/iSpan/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/Customers/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/Detail/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/Detail/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/Detail/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/iSpan/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/Home/Index.cshtml]

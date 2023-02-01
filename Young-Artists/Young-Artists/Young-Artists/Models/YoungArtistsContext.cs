@@ -18,12 +18,12 @@ namespace Young_Artists.Models
 
         public virtual DbSet<Administrator> Administrators { get; set; } = null!;
         public virtual DbSet<Advertisement> Advertisements { get; set; } = null!;
+        public virtual DbSet<Announcement> Announcements { get; set; } = null!;
         public virtual DbSet<Commodity> Commodities { get; set; } = null!;
         public virtual DbSet<Company> Companies { get; set; } = null!;
         public virtual DbSet<ContactPerson> ContactPeople { get; set; } = null!;
         public virtual DbSet<Customer> Customers { get; set; } = null!;
-        public virtual DbSet<DataAnnouncement> DataAnnouncements { get; set; } = null!;
-        public virtual DbSet<DetailedAnnouncement> DetailedAnnouncements { get; set; } = null!;
+        public virtual DbSet<Detail> Details { get; set; } = null!;
         public virtual DbSet<EvaluationForm> EvaluationForms { get; set; } = null!;
         public virtual DbSet<Event> Events { get; set; } = null!;
         public virtual DbSet<EventCollect> EventCollects { get; set; } = null!;
@@ -108,15 +108,40 @@ namespace Young_Artists.Models
                     .HasMaxLength(50)
                     .HasColumnName("advertisement_startdate");
 
-                entity.Property(e => e.AdvertisementType).HasColumnName("advertisement_type");
+                entity.Property(e => e.CompanyId).HasColumnName("company_id");
 
-                entity.Property(e => e.CompanyId)
-                    .HasMaxLength(50)
-                    .HasColumnName("company_id");
+                entity.Property(e => e.EventId).HasColumnName("event_id");
+            });
 
-                entity.Property(e => e.EventId)
+            modelBuilder.Entity<Announcement>(entity =>
+            {
+                entity.HasKey(e => e.Aid);
+
+                entity.ToTable("announcement");
+
+                entity.Property(e => e.Aid).HasColumnName("aid");
+
+                entity.Property(e => e.AnnouncementType)
+                    .HasMaxLength(20)
+                    .HasColumnName("announcement_type");
+
+                entity.Property(e => e.Content)
+                    .HasMaxLength(500)
+                    .HasColumnName("content");
+
+                entity.Property(e => e.ContentTime)
                     .HasMaxLength(50)
-                    .HasColumnName("event_id");
+                    .HasColumnName("content_time");
+
+                entity.Property(e => e.ContentTitle)
+                    .HasMaxLength(50)
+                    .HasColumnName("content_title");
+
+                entity.Property(e => e.DetailsId)
+                    .HasMaxLength(1)
+                    .IsUnicode(false)
+                    .HasColumnName("details_id")
+                    .IsFixedLength();
             });
 
             modelBuilder.Entity<Commodity>(entity =>
@@ -170,10 +195,7 @@ namespace Young_Artists.Models
                     .HasColumnName("company_email")
                     .IsFixedLength();
 
-                entity.Property(e => e.CompanyId)
-                    .HasMaxLength(50)
-                    .HasColumnName("company_id")
-                    .IsFixedLength();
+                entity.Property(e => e.CompanyId).HasColumnName("company_id");
 
                 entity.Property(e => e.CompanyName)
                     .HasMaxLength(50)
@@ -194,10 +216,7 @@ namespace Young_Artists.Models
 
                 entity.Property(e => e.Id).HasColumnName("id");
 
-                entity.Property(e => e.CompanyId)
-                    .HasMaxLength(50)
-                    .HasColumnName("company_id")
-                    .IsFixedLength();
+                entity.Property(e => e.CompanyId).HasColumnName("company_id");
 
                 entity.Property(e => e.ContactpersonEmail)
                     .HasMaxLength(50)
@@ -269,49 +288,13 @@ namespace Young_Artists.Models
                     .HasColumnName("customer_update_timestamp");
             });
 
-            modelBuilder.Entity<DataAnnouncement>(entity =>
+            modelBuilder.Entity<Detail>(entity =>
             {
-                entity.HasKey(e => e.AnnouncementId)
-                    .HasName("PK_dataAnnouncement");
+                entity.HasKey(e => e.DetailsId);
 
-                entity.ToTable("data_announcement");
+                entity.ToTable("details");
 
-                entity.Property(e => e.AnnouncementId).HasColumnName("announcement_id");
-
-                entity.Property(e => e.AnnouncementType)
-                    .HasMaxLength(10)
-                    .HasColumnName("announcement_type")
-                    .IsFixedLength();
-
-                entity.Property(e => e.Concent)
-                    .HasMaxLength(10)
-                    .HasColumnName("concent")
-                    .IsFixedLength();
-
-                entity.Property(e => e.ContentDatetime)
-                    .HasMaxLength(50)
-                    .HasColumnName("content_datetime");
-
-                entity.Property(e => e.ContentTitle)
-                    .HasMaxLength(10)
-                    .HasColumnName("content_title")
-                    .IsFixedLength();
-
-                entity.Property(e => e.DetaoledId)
-                    .HasMaxLength(1)
-                    .IsUnicode(false)
-                    .HasColumnName("detaoled_id")
-                    .IsFixedLength();
-            });
-
-            modelBuilder.Entity<DetailedAnnouncement>(entity =>
-            {
-                entity.HasKey(e => e.DetaoledId)
-                    .HasName("PK_details");
-
-                entity.ToTable("detailed_announcement");
-
-                entity.Property(e => e.DetaoledId).HasColumnName("detaoled_id");
+                entity.Property(e => e.DetailsId).HasColumnName("details_id");
 
                 entity.Property(e => e.EventId)
                     .HasMaxLength(10)
@@ -319,15 +302,17 @@ namespace Young_Artists.Models
                     .HasColumnName("event_id")
                     .IsFixedLength();
 
+                entity.Property(e => e.Eventtime)
+                    .HasMaxLength(50)
+                    .HasColumnName("eventtime");
+
                 entity.Property(e => e.Reason)
                     .HasMaxLength(500)
                     .HasColumnName("reason");
 
                 entity.Property(e => e.State)
-                    .HasMaxLength(1)
-                    .IsUnicode(false)
-                    .HasColumnName("state")
-                    .IsFixedLength();
+                    .HasMaxLength(20)
+                    .HasColumnName("state");
             });
 
             modelBuilder.Entity<EvaluationForm>(entity =>
@@ -359,36 +344,37 @@ namespace Young_Artists.Models
 
                 entity.Property(e => e.CompanyId).HasColumnName("company_id");
 
-                entity.Property(e => e.EventEnd)
+                entity.Property(e => e.EventEndTimestamp)
                     .HasMaxLength(50)
-                    .HasColumnName("event_end");
+                    .HasColumnName("event_end_timestamp");
 
                 entity.Property(e => e.EventImage)
-                    .HasMaxLength(10)
-                    .HasColumnName("event_image")
-                    .IsFixedLength();
+                    .HasMaxLength(50)
+                    .HasColumnName("event_image");
+
+                entity.Property(e => e.EventInfo).HasColumnName("event_info");
 
                 entity.Property(e => e.EventIsstate).HasColumnName("event_isstate");
 
-                entity.Property(e => e.EventLocationId)
-                    .HasMaxLength(50)
-                    .HasColumnName("event_location_id");
+                entity.Property(e => e.EventLocationId).HasColumnName("event_location_id");
 
-                entity.Property(e => e.EventSellEnd)
+                entity.Property(e => e.EventName)
                     .HasMaxLength(50)
-                    .HasColumnName("event_sell_end");
+                    .HasColumnName("event_name");
 
-                entity.Property(e => e.EventSellStart)
+                entity.Property(e => e.EventSellEndTimestamp)
                     .HasMaxLength(50)
-                    .HasColumnName("event_sell_start");
+                    .HasColumnName("event_sell_end_timestamp");
 
-                entity.Property(e => e.EventStart)
+                entity.Property(e => e.EventSellStartTimestamp)
                     .HasMaxLength(50)
-                    .HasColumnName("event_start");
+                    .HasColumnName("event_sell_start_timestamp");
 
-                entity.Property(e => e.EventTypeId)
+                entity.Property(e => e.EventStartTimestamp)
                     .HasMaxLength(50)
-                    .HasColumnName("event_type_id");
+                    .HasColumnName("event_start_timestamp");
+
+                entity.Property(e => e.EventTypeId).HasColumnName("event_type_id");
             });
 
             modelBuilder.Entity<EventCollect>(entity =>
@@ -414,9 +400,11 @@ namespace Young_Artists.Models
                     .HasMaxLength(50)
                     .HasColumnName("event_location_address");
 
-                entity.Property(e => e.EventLocationInfo)
+                entity.Property(e => e.EventLocationImage)
                     .HasMaxLength(50)
-                    .HasColumnName("event_location_info");
+                    .HasColumnName("event_location_image");
+
+                entity.Property(e => e.EventLocationInfo).HasColumnName("event_location_info");
 
                 entity.Property(e => e.EventLocationIsstate).HasColumnName("event_location_isstate");
 
@@ -533,6 +521,8 @@ namespace Young_Artists.Models
                 entity.ToTable("ticket_order");
 
                 entity.Property(e => e.Id).HasColumnName("id");
+
+                entity.Property(e => e.CustomerId).HasColumnName("customer_id");
 
                 entity.Property(e => e.OrderCreateTimestamp)
                     .HasMaxLength(100)
