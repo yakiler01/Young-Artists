@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UzMHIw+5HAgRL7QGbyIn2YqWClb6z/4v+zZXp562fvu+z1/EIGbJZ4CVDcNRA+GXT5mLB8rNP3avdCu0oCYnmQ==",
+  "dgSpecHash": "KCEvUqTE1INHHxYyWhyaw6TR9JInuPXvmRm9jzRYYol3h5BDrUC4mAwdqqKZtAa0m8QUxTx6apDfCnTs2qnXBA==",
   "success": true,
-  "projectFilePath": "D:\\資策會\\期末專題\\Young-Artists_Customers\\Young-Artists_Customers.csproj",
+  "projectFilePath": "C:\\Young-Artists\\Young-Artists\\Young-Artists_Customers.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\iSpan\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\iSpan\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
