@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iEyGsg+Yj69L6hxSnPR+uqCIwRFdVoU95+p+VOt3GRh1+Y3ajOO08V7rBlj35sACA3XvybmeULAIRpJjUgzpiA==",
+  "dgSpecHash": "SM2FftQX//nMSpxsI4bhQ6ql9oADEyxpDEAPs/44vqTCLVyoHiJF3aXfzy0MJf3yuhSw3nds9Gn4TeYDQMCYHQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\iSpan\\Desktop\\Young-Artists\\Young-Artists\\Young-Artists\\Young-Artists.csproj",
+  "projectFilePath": "C:\\Users\\iSpan\\Young-Artists\\Young-Artists\\Young-Artists\\Young-Artists\\Young-Artists.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\iSpan\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\iSpan\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\6.0.13\\microsoft.aspnetcore.diagnostics.entityframeworkcore.6.0.13.nupkg.sha512",

@@ -8,65 +8,65 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Young_Artists_Customers
 build_property.RootNamespace = Young_Artists_Customers
-build_property.ProjectDir = D:\資策會\期末專題\Young-Artists_Customers\
+build_property.ProjectDir = C:\Users\iSpan\Young-Artists\Young-Artists_customer\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\資策會\期末專題\Young-Artists_Customers
+build_property.MSBuildProjectDirectory = C:\Users\iSpan\Young-Artists\Young-Artists_customer
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/資策會/期末專題/Young-Artists_Customers/Views/Administrator/Create.cshtml]
+[C:/Users/iSpan/Young-Artists/Young-Artists_customer/Views/Administrator/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/資策會/期末專題/Young-Artists_Customers/Views/Administrator/Edit.cshtml]
+[C:/Users/iSpan/Young-Artists/Young-Artists_customer/Views/Administrator/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/資策會/期末專題/Young-Artists_Customers/Views/Administrator/List.cshtml]
+[C:/Users/iSpan/Young-Artists/Young-Artists_customer/Views/Administrator/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/資策會/期末專題/Young-Artists_Customers/Views/Customer/Create.cshtml]
+[C:/Users/iSpan/Young-Artists/Young-Artists_customer/Views/Customer/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/資策會/期末專題/Young-Artists_Customers/Views/Customer/Edit.cshtml]
+[C:/Users/iSpan/Young-Artists/Young-Artists_customer/Views/Customer/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/資策會/期末專題/Young-Artists_Customers/Views/Customer/List.cshtml]
+[C:/Users/iSpan/Young-Artists/Young-Artists_customer/Views/Customer/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/資策會/期末專題/Young-Artists_Customers/Views/Home/Index.cshtml]
+[C:/Users/iSpan/Young-Artists/Young-Artists_customer/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/資策會/期末專題/Young-Artists_Customers/Views/Home/Login.cshtml]
+[C:/Users/iSpan/Young-Artists/Young-Artists_customer/Views/Home/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/資策會/期末專題/Young-Artists_Customers/Views/Home/Privacy.cshtml]
+[C:/Users/iSpan/Young-Artists/Young-Artists_customer/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/資策會/期末專題/Young-Artists_Customers/Views/Shared/Error.cshtml]
+[C:/Users/iSpan/Young-Artists/Young-Artists_customer/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/資策會/期末專題/Young-Artists_Customers/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/iSpan/Young-Artists/Young-Artists_customer/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/資策會/期末專題/Young-Artists_Customers/Views/_ViewImports.cshtml]
+[C:/Users/iSpan/Young-Artists/Young-Artists_customer/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/資策會/期末專題/Young-Artists_Customers/Views/_ViewStart.cshtml]
+[C:/Users/iSpan/Young-Artists/Young-Artists_customer/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/資策會/期末專題/Young-Artists_Customers/Views/Shared/_Layout.cshtml]
+[C:/Users/iSpan/Young-Artists/Young-Artists_customer/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-yotvpos067
