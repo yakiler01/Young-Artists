@@ -256,27 +256,29 @@ CREATE TABLE [dbo].[evaluation_form](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[event]    Script Date: 2023/1/31 下午 04:17:13 ******/
+/****** Object:  Table [dbo].[event]    Script Date: 2023/1/31 下午 04:21:03 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
 CREATE TABLE [dbo].[event](
 	[event_id] [int] IDENTITY(1,1) NOT NULL,
-	[event_image] [nchar](10) NULL,
+	[event_image] [nvarchar](50) NULL,
+	[event_name] [nvarchar](50) NULL,
+	[event_info] [nvarchar](max) NULL,
 	[company_id] [int] NULL,
-	[event_sell_start] [nvarchar](50) NULL,
-	[event_sell_end] [nvarchar](50) NULL,
-	[event_start] [nvarchar](50) NULL,
-	[event_end] [nvarchar](50) NULL,
-	[event_type_id] [nvarchar](50) NULL,
-	[event_location_id] [nvarchar](50) NULL,
+	[event_sell_start_timestamp] [nvarchar](50) NULL,
+	[event_sell_end_timestamp] [nvarchar](50) NULL,
+	[event_start_timestamp] [nvarchar](50) NULL,
+	[event_end_timestamp] [nvarchar](50) NULL,
+	[event_type_id] [int] NULL,
+	[event_location_id] [int] NULL,
 	[event_isstate] [bit] NULL,
  CONSTRAINT [PK_活動表] PRIMARY KEY CLUSTERED 
 (
 	[event_id] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
-) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
 /****** Object:  Table [dbo].[event_collect]    Script Date: 2023/1/31 下午 04:17:13 ******/
 SET ANSI_NULLS ON
@@ -293,7 +295,7 @@ CREATE TABLE [dbo].[event_collect](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[event_location]    Script Date: 2023/1/31 下午 04:17:13 ******/
+/****** Object:  Table [dbo].[event_location]    Script Date: 2023/1/31 下午 04:21:03 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -301,16 +303,17 @@ GO
 CREATE TABLE [dbo].[event_location](
 	[event_location_id] [int] IDENTITY(1,1) NOT NULL,
 	[event_location_name] [nvarchar](50) NULL,
-	[event_location_info] [nvarchar](50) NULL,
+	[event_location_image] [nvarchar](50) NULL,
+	[event_location_info] [nvarchar](max) NULL,
 	[event_location_address] [nvarchar](50) NULL,
 	[event_location_isstate] [bit] NULL,
  CONSTRAINT [PK_活動地點] PRIMARY KEY CLUSTERED 
 (
 	[event_location_id] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
-) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[event_type]    Script Date: 2023/1/31 下午 04:17:13 ******/
+/****** Object:  Table [dbo].[event_type]    Script Date: 2023/1/31 下午 04:21:03 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
