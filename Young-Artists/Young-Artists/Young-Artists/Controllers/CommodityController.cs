@@ -50,6 +50,7 @@ namespace Young_Artists.Controllers
                 x.CommodityNum = vm.CommodityNum;
                 x.CommodityStart = DateTime.Now.ToString();
                 //x.CommodityStart = vm.CommodityStart;
+                x.CommodityPrice=vm.CommodityPrice;
                 x.CommodityClassification = vm.CommodityClassification;
                 x.CommodityState = vm.CommodityState;
                 db.Commodities.Add(x);
@@ -98,6 +99,7 @@ namespace Young_Artists.Controllers
                 x.CommodityNum = vm.CommodityNum;
                 x.CommodityStart = vm.CommodityStart;
                 //x.CommodityImage = vm.CommodityImage;
+                x.CommodityPrice = vm.CommodityPrice;
                 x.CommodityClassification = vm.CommodityClassification;
                 x.CommodityState = vm.CommodityState;
                 db.Commodities.Add(x);

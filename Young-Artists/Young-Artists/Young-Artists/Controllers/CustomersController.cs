@@ -26,6 +26,8 @@ namespace Young_Artists.Controllers
         public IActionResult Create(Customer customer)
         {
             YoungArtistsContext db = new YoungArtistsContext();
+            customer.CustomerCreatTimestamp = DateTime.Now.ToString();
+            customer.CustomerUpdateTimestamp = DateTime.Now.ToString();
             db.Add(customer);
             db.SaveChanges();
             return RedirectToAction("List");
@@ -47,6 +49,7 @@ namespace Young_Artists.Controllers
             {
                 YoungArtistsContext db = new YoungArtistsContext();
                 Customer x = db.Customers.FirstOrDefault(t => t.CustomerId == id);
+                x.CustomerUpdateTimestamp = DateTime.Now.ToString();
                 return View(x);
             }
             return RedirectToAction("List");
