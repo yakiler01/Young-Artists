@@ -150,7 +150,7 @@ SET QUOTED_IDENTIFIER ON
 GO
 CREATE TABLE [dbo].[company](
 	[id] [int] IDENTITY(1,1) NOT NULL,
-	[company_id] [int](50) NULL,
+	[company_id] [int] NULL,
 	[company_name] [nchar](50) NULL,
 	[company_phone] [nchar](50) NULL,
 	[company_address] [nchar](50) NULL,
