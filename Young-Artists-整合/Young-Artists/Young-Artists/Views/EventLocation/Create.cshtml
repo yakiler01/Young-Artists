@@ -1,0 +1,56 @@
+﻿@model Young_Artists.Models.EventLocation
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>新增活動地點</h1>
+
+<h4>請輸入新增資訊</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input asp-for="EventLocationId" class="form-control" hidden/>
+
+            <div class="form-group">
+                <label asp-for="EventLocationName" class="control-label">活動地點名稱</label>
+                <input asp-for="EventLocationName" class="form-control" />
+                <span asp-validation-for="EventLocationName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="EventLocationImage" class="control-label">活動地點圖片</label>
+                <input type="file" name="photo" class="form-control" />
+                <span asp-validation-for="EventLocationImage" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EventLocationInfo" class="control-label">活動地點資訊</label>
+                <input asp-for="EventLocationInfo" class="form-control" />
+                <span asp-validation-for="EventLocationInfo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EventLocationAddress" class="control-label">活動地點地址</label>
+                <input asp-for="EventLocationAddress" class="form-control" />
+                <span asp-validation-for="EventLocationAddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EventLocationIsstate" class="control-label">活動地點是否上架</label>
+                @Html.EditorFor(model => model.EventLocationIsstate, new { htmlAttributes = new { @class = "form-control" } })
+                <span asp-validation-for="EventLocationIsstate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="建立新活動地點" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="List">取消</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

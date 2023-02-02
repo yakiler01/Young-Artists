@@ -1,0 +1,96 @@
+﻿@model IEnumerable<Young_Artists.ViewModels.TicketOrderKeywordViewModel>
+
+@{
+	ViewData["Title"] = "List_Detail";
+}
+
+<h1>訂單中的票</h1>
+
+
+<table class="table">
+	<thead>
+		<tr>
+
+			<th>
+				@Html.DisplayNameFor(model => model.OrderId)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.OrderTotalPrice)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.OrderCreateTimestamp)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.OrderUpdateTimestamp)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.OrderUpdateId)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.OrderState)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.EventId)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.Area)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.SeatId)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.CustomerId)
+			</th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var item in Model)
+		{
+			<tr>
+
+				<td>
+					@Html.DisplayFor(modelItem => item.OrderId)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.OrderTotalPrice)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.OrderCreateTimestamp)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.OrderUpdateTimestamp)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.OrderUpdateId)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.OrderState)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.EventId)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Area)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.SeatId)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.CustomerId)
+				</td>
+				<td>
+					@Html.ActionLink("修改", "Edit_Detail","TicketOrder", new { id = item.Id } , new{@class = "btn btn-success"})
+				</td>
+				<td>
+					@Html.ActionLink("刪除", "Delete_Detail", "TicketOrder", new { id = item.Id },new { onclick = "return confirm('是否確定要刪除此訂單中的票?')",@class = "btn btn-danger" })
+
+				</td>
+			</tr>
+		}
+	</tbody>
+</table>
+
+<div>
+	<a asp-action="List">Back to List</a>
+</div>

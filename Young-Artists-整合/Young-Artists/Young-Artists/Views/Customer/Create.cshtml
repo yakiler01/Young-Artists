@@ -1,0 +1,262 @@
+﻿@model Young_Artists.Models.Customer
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>新增客戶資料</h1>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create">           
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CustomerId" class="control-label" hidden></label>
+                <input asp-for="CustomerId" class="form-control" hidden />
+                <span asp-validation-for="CustomerId" class="text-danger"></span>
+            </div>
+            <div class="form-group input-group">
+                <label asp-for="CustomerName" class="control-label" hidden></label>
+                <div class="input-group-prepend">
+                   <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+                </div>
+                <input asp-for="CustomerName" class="form-control" placeholder="Full name" type="text" />
+                <span asp-validation-for="CustomerName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CustomerEmail" class="control-label"></label>
+                <input asp-for="CustomerEmail" class="form-control" type="email"/>                        
+                <span asp-validation-for="CustomerEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CustomerPassword" class="control-label"></label>
+                <span id="pwdcheck"></span><br />
+                <p style="color:gray;font-size: 8px;">(6~10個字且必須包含英數字、特殊字元)</p>
+                <input asp-for="CustomerPassword" class="form-control" id="password" type="password" />
+                <span id="pwdcheck"></span><br />
+              <span asp-validation-for="CustomerPassword" class="text-danger"></span>
+                
+            </div>
+            <div class="form-group">
+                <label asp-for="CustomerPhone" class="control-label"></label>
+                <input asp-for="CustomerPhone" class="form-control" placeholder="09XX-XXX-XXX" />
+                <span asp-validation-for="CustomerPhone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CustomerRegion" class="control-label"></label>
+                <input asp-for="CustomerRegion" class="form-control" id="CustomerRegionInput" hidden />
+                <select id="CustomerRegionSelected" name="CustomerRegion" class="form-select">             
+                    <optgroup label="請選擇居住地區">
+                    <option selected disabled hidden>請選擇居住地區</option>
+                        <option value="基隆市">基隆市</option>
+                        <option value="台北市">台北市</option>
+                        <option value="新北市">新北市</option>
+                        <option value="桃園縣">桃園縣</option>
+                        <option value="新竹市">新竹市</option>
+                        <option value="新竹縣">新竹縣</option>
+                        <option value="苗栗縣">苗栗縣</option>
+                        <option value="台中市">台中市</option>
+                        <option value="彰化縣">彰化縣</option>
+                        <option value="南投縣">南投縣</option>
+                        <option value="雲林縣">雲林縣</option>
+                        <option value="嘉義市">嘉義市</option>
+                        <option value="嘉義縣">嘉義縣</option>
+                        <option value="台南市">台南市</option>
+                        <option value="高雄市">高雄市</option>
+                        <option value="屏東縣">屏東縣</option>
+                        <option value="台東縣">台東縣</option>
+                        <option value="花蓮縣">花蓮縣</option>
+                        <option value="宜蘭縣">宜蘭縣</option>
+                        <option value="澎湖縣">澎湖縣</option>
+                        <option value="金門縣">金門縣</option>
+                        <option value="連江縣">連江縣</option>
+                        <option value="其他">其他</option>
+                    </optgroup>
+                </select>
+                <span asp-validation-for="CustomerRegion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CustomerAddress" class="control-label"></label>
+                <input asp-for="CustomerAddress" class="form-control" />
+                <span asp-validation-for="CustomerAddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CustomerBirthDate" class="control-label"></label>
+                <input asp-for="CustomerBirthDate" class="form-control" type="date"min="1900-01-01" max="now Date" />
+                <span asp-validation-for="CustomerBirthDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CustomerGender" class="control-label"></label>
+                <input asp-for="CustomerGender" class="form-control" id="CustomerGenderInput" hidden />
+                <select id="CustomerGenderSelected" name="CustomerGender" class="form-select">
+                    <optgroup label="請選擇生理性別">
+                    <option selected disabled hidden>請選擇生理性別</option>
+                    <option value="M">男</option>
+                    <option value="F">女</option>
+                    </optgroup>
+                </select>
+                <span asp-validation-for="CustomerGender" class="text-danger"></span>                
+            </div>
+            <div class="form-group">
+                <label asp-for="CustomerCreatTimestamp" class="control-label" hidden></label>
+                <input asp-for="CustomerCreatTimestamp" class="form-control" hidden />
+                <span asp-validation-for="CustomerCreatTimestamp" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CustomerUpdateTimestamp" class="control-label" hidden></label>
+                <input asp-for="CustomerUpdateTimestamp" class="form-control" hidden />
+                <span asp-validation-for="CustomerUpdateTimestamp" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+    <div>
+    <a asp-action="List">返回客戶列表</a>
+</div>
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+
+
+<div class="container">
+    <br>  <p class="text-center">More bootstrap 4 components on <a href="http://bootstrap-ecommerce.com/"> Bootstrap-ecommerce.com</a></p>
+    <hr>
+
+
+
+
+
+    <div class="card bg-light">
+        <article class="card-body mx-auto" style="max-width: 400px;">
+           
+            <form>
+                <div class="form-group input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+                    </div>
+                    <input name="" class="form-control" placeholder="Full name" type="text">
+                </div> <!-- form-group// -->
+                <div class="form-group input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
+                    </div>
+                    <input name="" class="form-control" placeholder="Email address" type="email">
+                </div> <!-- form-group// -->
+                <div class="form-group input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"> <i class="fa fa-phone"></i> </span>
+                    </div>
+                    <select class="custom-select" style="max-width: 120px;">
+                        <option selected="">+971</option>
+                        <option value="1">+972</option>
+                        <option value="2">+198</option>
+                        <option value="3">+701</option>
+                    </select>
+                    <input name="" class="form-control" placeholder="Phone number" type="text">
+                </div> <!-- form-group// -->
+                <div class="form-group input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"> <i class="fa fa-building"></i> </span>
+                    </div>
+                    <select class="form-control">
+                        <option selected=""> Select job type</option>
+                        <option>Designer</option>
+                        <option>Manager</option>
+                        <option>Accaunting</option>
+                    </select>
+                </div> <!-- form-group end.// -->
+                <div class="form-group input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+                    </div>
+                    <input class="form-control" placeholder="Create password" type="password">
+                </div> <!-- form-group// -->
+                <div class="form-group input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+                    </div>
+                    <input class="form-control" placeholder="Repeat password" type="password">
+                </div> <!-- form-group// -->
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary btn-block"> Create Account  </button>
+                </div> <!-- form-group// -->
+                <p class="text-center">Have an account? <a href="">Log In</a> </p>
+            </form>
+        </article>
+    </div> <!-- card.// -->
+
+</div>
+<!--container end.//-->
+
+<br>
+<br>
+<article class="bg-secondary mb-3">
+    <div class="card-body text-center">
+        <h3 class="text-white mt-3">Bootstrap 4 UI KIT</h3>
+        <p class="h5 text-white">
+            Components and templates  <br> for Ecommerce, marketplace, booking websites
+            and product landing pages
+        </p>   <br>
+        <p>
+            <a class="btn btn-warning" target="_blank" href="http://bootstrap-ecommerce.com/">
+                Bootstrap-ecommerce.com
+                <i class="fa fa-window-restore "></i>
+            </a>
+        </p>
+    </div>
+    <br><br>
+</article>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+    <script>
+        // 獲取 <select id="CustomerRegionSelected" > 標籤
+        let CustomerRegionSelected = document.querySelector("#CustomerRegionSelected");
+        // 獲取 <input asp-for="CustomerRegion" class="form-control" id="CustomerRegionInput" hidden /> 標籤
+        let CustomerRegionInput = document.querySelector("#CustomerRegionInput");
+        // select 的 value改變的時候 讓input.value = select.value
+        CustomerRegionSelected.addEventListener("change", function () {
+            CustomerRegionInput.value = CustomerRegionSelected.value;
+        })
+
+        // 獲取 <select id="CustomerGenderSelected" > 標籤
+        let CustomerGenderSelected = document.querySelector("#CustomerGenderSelected");
+        // 獲取 <input asp-for="CustomerGender" class="form-control" id="CustomerGenderInput" hidden /> 標籤
+        let CustomerGenderInput = document.querySelector("#CustomerGenderInput");
+        CustomerGenderSelected.addEventListener("change", function () {
+            CustomerGenderInput.value = CustomerGenderSelected.value;
+        })
+
+        ////繫結物件(input的id)與功能(function)，blur表示離開焦點        
+        //document.getElementById("password").addEventListener("blur", checkPwd);
+        ////檢查密碼輸入條件
+        //function checkPwd() {
+        //    //取得password元素
+        //    let password = document.querySelector("#password");
+        //    let pwdcheck = document.querySelector("#pwdcheck");
+        //    //取得password元素值
+        //    let pwdvalue = password.value;
+        //    //pwd正規表達
+        //    let re1 = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@@$!%*?&])[A-Za-z\d@@$!%*?&]{6,}$/;
+
+        //    if  (!(re1.test(pwdvalue))) {
+        //        pwdcheck.style.color = "red";
+        //        pwdcheck.innerHTML = "必須包含英數字、特殊字元";
+        //        }
+        //}
+
+    </script>
+
+
+}
+

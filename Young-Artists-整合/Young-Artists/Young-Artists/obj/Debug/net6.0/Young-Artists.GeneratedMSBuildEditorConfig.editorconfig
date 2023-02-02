@@ -1,0 +1,260 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Young_Artists
+build_property.RootNamespace = Young_Artists
+build_property.ProjectDir = C:\Users\iSpan\Downloads\Young-Artists\Young-Artists\Young-Artists\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\iSpan\Downloads\Young-Artists\Young-Artists\Young-Artists
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/Administrator/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/Administrator/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/Administrator/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/Advertisement/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWR2ZXJ0aXNlbWVudFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/Advertisement/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWR2ZXJ0aXNlbWVudFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/Advertisement/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWR2ZXJ0aXNlbWVudFxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/Announcement/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5ub3VuY2VtZW50XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/Announcement/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5ub3VuY2VtZW50XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/Announcement/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5ub3VuY2VtZW50XExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/Commodity/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9kaXR5XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/Commodity/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9kaXR5XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/Commodity/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9kaXR5XExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/Company/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/Company/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/Company/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/ContactPerson/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFBlcnNvblxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/ContactPerson/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFBlcnNvblxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/ContactPerson/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFBlcnNvblxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/Customers123/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzMTIzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/Customers123/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzMTIzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/Customers123/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzMTIzXExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/Customer/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/Customer/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/Customer/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/Detail/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/Detail/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/Detail/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/EventLocation/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRMb2NhdGlvblxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/EventLocation/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRMb2NhdGlvblxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/EventLocation/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRMb2NhdGlvblxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/EventType/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRUeXBlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/EventType/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRUeXBlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/EventType/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRUeXBlXExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/Event/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/Event/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/Event/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/FrontCode/Buy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnJvbnRDb2RlXEJ1eS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/FrontCode/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnJvbnRDb2RlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/OrderForm/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJGb3JtXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/OrderForm/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJGb3JtXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/OrderForm/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJGb3JtXExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/OrderForm/List2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJGb3JtXExpc3QyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/OrderForm/QueryCommodity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJGb3JtXFF1ZXJ5Q29tbW9kaXR5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/OrderForm/QueryCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJGb3JtXFF1ZXJ5Q3VzdG9tZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/OrderForm/QueryId.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJGb3JtXFF1ZXJ5SWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/SeatStock/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhdFN0b2NrXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/SeatStock/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhdFN0b2NrXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/SeatStock/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhdFN0b2NrXExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/TicketOrder/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0T3JkZXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/TicketOrder/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0T3JkZXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/TicketOrder/Edit_Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0T3JkZXJcRWRpdF9EZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/TicketOrder/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0T3JkZXJcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/TicketOrder/List_Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0T3JkZXJcTGlzdF9EZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/iSpan/Downloads/Young-Artists/Young-Artists/Young-Artists/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-4bz110lkr2

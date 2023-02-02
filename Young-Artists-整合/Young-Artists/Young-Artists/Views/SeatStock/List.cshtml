@@ -1,0 +1,84 @@
+﻿@model IEnumerable<Young_Artists.Models.SeatStock>
+
+@{
+	ViewData["Title"] = "List";
+}
+
+<h1>座位庫存列表</h1>
+@using (Html.BeginForm())
+{
+	<p>
+		<div>
+			請輸入活動id
+		</div>
+
+		@Html.TextBox("id")
+		<input type="submit" value="查詢" />
+	</p>
+}
+<p>
+	<a asp-action="Create">新增座位庫存</a>
+</p>
+<table class="table">
+	<thead>
+		<tr>
+			<th>
+				@Html.DisplayNameFor(model => model.EventId)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.Area)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.Quantity)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.Stock)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.Sold)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.Price)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.IsAvailable)
+			</th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var item in Model)
+		{
+			<tr>
+
+				<td>
+					@Html.DisplayFor(modelItem => item.EventId)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Area)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Quantity)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Stock)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Sold)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Price)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.IsAvailable)
+				</td>
+				<td>
+					@Html.ActionLink("修改", "Edit","SeatStock", new { id = item.Id } , new{@class = "btn btn-success"})
+				</td>
+				<td>
+					@Html.ActionLink("刪除", "Delete", "SeatStock", new { id = item.Id },new { onclick = "return confirm('是否確定要刪除此座位庫存?')",@class = "btn btn-danger" })
+				</td>
+			</tr>
+		}
+	</tbody>
+</table>

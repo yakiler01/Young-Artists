@@ -1,0 +1,82 @@
+﻿@model IEnumerable<Young_Artists.Models.Company>
+
+@{
+    ViewData["Title"] = "List";
+}
+
+<h1>廠商資料表</h1>
+@using (Html.BeginForm())
+{
+    <p>
+        關鍵字
+        @Html.TextBox("txtKeyword")
+        <input type="submit" value="查詢" />
+    </p>
+}
+
+<p>
+    <a asp-action="Create">新增廠商資料</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                序
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CompanyId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CompanyName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CompanyPhone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CompanyAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CompanyEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CompanyOnline)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            int count = 0;
+            foreach (var item in Model) 
+            {
+                count++;
+        <tr>
+            <td>
+                @count
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CompanyId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CompanyName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CompanyPhone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CompanyAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CompanyEmail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CompanyOnline)
+            </td>
+            <td>
+                @Html.ActionLink("修改", "Edit", new { id=item.Id}) |
+                @Html.ActionLink("刪除", "Delete", "Company", new {id=item.Id}, new{onclick="return confirm('確定要刪除嗎?') "})
+            </td>
+        </tr>
+}}
+    </tbody>
+</table>

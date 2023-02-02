@@ -1,0 +1,63 @@
+﻿@model IEnumerable<Young_Artists.Models.Administrator>
+
+@{
+    ViewData["Title"] = "List";
+}
+
+<h1>管理員帳號列表</h1>
+
+<p>
+    <a asp-action="Create">新增管理員帳號</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                序
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AdministratorAccount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AdministratorPassword)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AdministratorCreatTimestamp)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AdministratorUpdateTimestamp)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            int count = 0;
+            foreach (var item in Model) {
+                count++;
+        <tr>
+            <td>
+                @count
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AdministratorAccount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AdministratorPassword)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AdministratorCreatTimestamp)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AdministratorUpdateTimestamp)
+            </td>
+            <td>
+                        @Html.ActionLink("修改", "Edit", "Administrator", new { id = item.AdministratorId})   |
+                        @Html.ActionLink("刪除", "Delete", "Administrator", new { id = item.AdministratorId },
+                new { onclick = "return confirm('確定要刪除嗎?')" })
+                
+            </td>
+        </tr>
+}}
+    </tbody>
+</table>

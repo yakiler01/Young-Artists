@@ -1,0 +1,70 @@
+﻿@model IEnumerable<Young_Artists.Models.Announcement>
+
+@{
+    ViewData["Title"] = "List";
+}
+
+<h1>公告管理一覽</h1>
+
+<p>
+    <a asp-action="Create" text-decoration:none class="btn btn-primary">新增公告</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th width="100">
+                編號
+            </th>
+            <th width="200">
+                @Html.DisplayNameFor(model => model.AnnouncementType)
+            </th>
+            <th width="200">
+                @Html.DisplayNameFor(model => model.ContentTitle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ContentTime)
+            </th>
+            <th width="800">
+                @Html.DisplayNameFor(model => model.Content)
+            </th>
+            <th width ="200">
+                @Html.DisplayNameFor(model => model.DetailsId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            int count = 0;
+            foreach (var item in Model)
+            {
+                count++;
+                <tr>
+                    <td>
+                        @count
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AnnouncementType)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ContentTitle)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ContentTime)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Content)
+                    </td>
+                    <td>
+                        @Html.ActionLink("詳細資訊", "List","Detail",new { id=item.DetailsId },new {Class ="btn btn-primary"})
+                        @Html.DisplayFor(modelItem => item.DetailsId)
+                    </td>
+                    <td width="300">
+                        @Html.ActionLink("編輯", "Edit",new { id=item.Aid },new {Class ="btn btn-primary"}) 
+                        @Html.ActionLink("刪除", "Delete" , new { id=item.Aid }, new { onclick ="return confirm('確定要刪除嗎?')" ,Class = "btn btn-danger"})
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
