@@ -7,7 +7,7 @@
 <h1>活動異動公告一覽</h1>
 
 <p>
-    <a asp-action="Create">新增異動資訊</a>
+    <a asp-action="Create" text-decoration:none class="btn btn-primary">新增異動資訊</a>
 </p>
 <table class="table">
     <thead>
@@ -16,16 +16,16 @@
                 序號
             </th>
             <th>
-                原活動時間
+                @Html.DisplayNameFor(model => model.Eventtime)
             </th>
             <th>
-                活動名稱
+                @Html.DisplayNameFor(model => model.EventId)
             </th>
             <th>
-                現在狀態
+                @Html.DisplayNameFor(model => model.State)
             </th>
             <th>
-                詳細資訊
+                @Html.DisplayNameFor(model => model.Reason)
             </th>
             <th></th>
         </tr>
@@ -53,8 +53,8 @@
                         @Html.DisplayFor(modelItem => item.Reason)
                     </td>
                     <td>
-                        @Html.ActionLink("修改", "Edit", new {  id=item.DetailsId }) |
-                        @Html.ActionLink("刪除", "Delete" , new { id=item.DetailsId } ,new { onclick ="return confirm('確定要刪除嗎?')"})
+                        @Html.ActionLink("編輯", "Edit", new {  id=item.DetailsId },new {Class ="btn btn-success"}) 
+                        @Html.ActionLink("刪除", "Delete" , new { id=item.DetailsId } ,new { onclick ="return confirm('確定要刪除嗎?')" ,Class = "btn btn-danger"})
                     </td>
                 </tr>
             }

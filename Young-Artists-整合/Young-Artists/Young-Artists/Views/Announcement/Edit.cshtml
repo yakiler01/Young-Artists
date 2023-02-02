@@ -44,16 +44,17 @@
                 <span asp-validation-for="DetailsId" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="儲存" class="btn btn-primary" />
+                <input type="submit" value="儲存" class="btn btn-success" />
+                <a asp-action="Index" class="btn btn-danger">取消</a>
             </div>
-
+            <div>
+                
+            </div>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-action="List">取消</a>
-</div>
+
 
 @section Scripts {
     @{
