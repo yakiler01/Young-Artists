@@ -25,7 +25,7 @@ namespace Young_Artists.ViewModel
         }
         ///^(?=.*[0-9].*)(?=.*[A-Z].*)(?=.*[a-z].*)(?=.*[`~!@#$%^&*()_\-+=<>.?:"{}].*).{6,20}$/
         //@"/^(?=.*[0-9].*)(?=.*[A-Z].*)(?=.*[a-z].*)(?=.*[`~!@#$%^&*()_\-+=<>.?:""{}].*).$/"
-        [RegularExpression(@"^(?=.*[0-9].*)(?=.*[A-Z].*)(?=.*[a-z].*)(?=.*[`~!@#$%^&*()_\-+=<>.?:""{}].*)$", ErrorMessage = "必須包含英數字、特殊字元")]
+        //[RegularExpression(@"^(?=.*[0-9].*)(?=.*[A-Z].*)(?=.*[a-z].*)(?=.*[`~!@#$%^&*()_\-+=<>.?:""{}].*)$", ErrorMessage = "必須包含英數字、特殊字元")]
         [DisplayName("商品名稱 ")]
         public string? CommodityName {
             get { return _commodity.CommodityName; }

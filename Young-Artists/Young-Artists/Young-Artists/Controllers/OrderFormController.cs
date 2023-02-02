@@ -68,7 +68,8 @@ namespace Young_Artists.Controllers
         public IActionResult Create(OrderForm orderForm)
         {
             YoungArtistsContext db = new YoungArtistsContext();
-            db.Add(orderForm);
+            orderForm.OrderTime = DateTime.Now.ToString();
+            db.OrderForms.Add(orderForm);
             db.SaveChanges();
             return RedirectToAction("List");
         }
