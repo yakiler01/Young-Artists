@@ -663,9 +663,7 @@ C:\Clone人\Young-Artists\Young-Artists\Young-Artists\obj\Debug\net6.0\refint\Yo
 C:\Clone人\Young-Artists\Young-Artists\Young-Artists\obj\Debug\net6.0\Young-Artists.pdb
 C:\Clone人\Young-Artists\Young-Artists\Young-Artists\obj\Debug\net6.0\Young-Artists.genruntimeconfig.cache
 C:\Clone人\Young-Artists\Young-Artists\Young-Artists\obj\Debug\net6.0\ref\Young-Artists.dll
-<<<<<<< HEAD
 >>>>>>> e205a790f5e044dbaf48b2f18f8511e50e726225
-=======
 D:\期末作業\Young-Artists\Young-Artists\Young-Artists\bin\Debug\net6.0\appsettings.Development.json
 D:\期末作業\Young-Artists\Young-Artists\Young-Artists\bin\Debug\net6.0\appsettings.json
 D:\期末作業\Young-Artists\Young-Artists\Young-Artists\bin\Debug\net6.0\Young-Artists.staticwebassets.runtime.json

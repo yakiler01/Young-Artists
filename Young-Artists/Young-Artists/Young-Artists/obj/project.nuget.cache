@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "UDask40daQWrlUAYmFqv12uv+W2eCK2qNyA1Otrj+pcodasbcLYtOf89UwZTGSqLjq2d4gU9ZtJ3TdKcTTs4YQ==",
   "success": true,
   "projectFilePath": "C:\\Young-Artists\\Young-Artists\\Young-Artists\\Young-Artists\\Young-Artists.csproj",
-=======
-  "dgSpecHash": "kDXF2k+Vp0O+YwcaWl6kHKOHpFmBRikCz5euZJNbqxO46pTXI2wjcmtTr5N3rLoBrq3ZmnOTHjJIVHjjT22GYw==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\iSpan\\Downloads\\Young-Artists\\Young-Artists\\Young-Artists\\Young-Artists.csproj",
->>>>>>> 54d2f7dda6d94939c1920c14a8c362ecfd703c44
   "expectedPackageFiles": [
     "C:\\Users\\iSpan\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\iSpan\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
