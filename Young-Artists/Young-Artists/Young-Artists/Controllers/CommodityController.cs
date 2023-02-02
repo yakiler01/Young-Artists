@@ -50,7 +50,7 @@ namespace Young_Artists.Controllers
                 x.CommodityNum = vm.CommodityNum;
                 x.CommodityStart = DateTime.Now.ToString();
                 //x.CommodityStart = vm.CommodityStart;
-                x.CommodityPrice=vm.CommodityPrice;
+                x.CommodityPrice = vm.CommodityPrice;
                 x.CommodityClassification = vm.CommodityClassification;
                 x.CommodityState = vm.CommodityState;
                 db.Commodities.Add(x);
@@ -75,7 +75,8 @@ namespace Young_Artists.Controllers
             {
                 YoungArtistsContext db = new YoungArtistsContext();
                 Commodity x = db.Commodities.FirstOrDefault(t => t.Id == id);
-                return View(x);
+                if (x != null)
+                    return View(x);
             }
             return RedirectToAction("List");
         }
@@ -98,11 +99,11 @@ namespace Young_Artists.Controllers
                 x.CommodityNarrative = vm.CommodityNarrative;
                 x.CommodityNum = vm.CommodityNum;
                 x.CommodityStart = vm.CommodityStart;
-                //x.CommodityImage = vm.CommodityImage;
                 x.CommodityPrice = vm.CommodityPrice;
+                //x.CommodityImage = vm.CommodityImage;
                 x.CommodityClassification = vm.CommodityClassification;
                 x.CommodityState = vm.CommodityState;
-                db.Commodities.Add(x);
+                //db.Commodities.Add(x);
                 db.SaveChangesAsync();
             }
             return RedirectToAction("List");

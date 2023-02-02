@@ -49,7 +49,6 @@ namespace Young_Artists.Controllers
             {
                 YoungArtistsContext db = new YoungArtistsContext();
                 Customer x = db.Customers.FirstOrDefault(t => t.CustomerId == id);
-                x.CustomerUpdateTimestamp = DateTime.Now.ToString();
                 return View(x);
             }
             return RedirectToAction("List");

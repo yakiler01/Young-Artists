@@ -4,18 +4,15 @@
     ViewData["Title"] = "Edit";
 }
 
-<h1>Edit</h1>
+<h1>修改</h1>
 
-<h4>Commodity</h4>
+<h4>商品資料</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Edit" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Id" class="control-label" hidden></label>
-                <span asp-validation-for="CommodityName" class="text-danger"></span>
-            </div>
+            <input type="hidden" name="Id" value="@Model.Id" />
             <div class="form-group">
                 <label asp-for="CommodityName" class="control-label"></label>
                 <input asp-for="CommodityName" class="form-control" />
@@ -27,14 +24,14 @@
                 <span asp-validation-for="CommodityNarrative" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="CommodityNum" class="control-label"></label>
-                <input asp-for="CommodityNum" class="form-control" />
-                <span asp-validation-for="CommodityNum" class="text-danger"></span>
-            </div>
-            <div class="form-group">
                 <label asp-for="CommodityPrice" class="control-label"></label>
                 <input asp-for="CommodityPrice" class="form-control" />
                 <span asp-validation-for="CommodityPrice" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CommodityNum" class="control-label"></label>
+                <input asp-for="CommodityNum" class="form-control" />
+                <span asp-validation-for="CommodityNum" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label class="control-label">產品照片</label>
