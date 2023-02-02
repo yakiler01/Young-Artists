@@ -8,113 +8,113 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Young_Artists
 build_property.RootNamespace = Young_Artists
-build_property.ProjectDir = C:\Young-Artists\Young-Artists\Young-Artists\Young-Artists\
+build_property.ProjectDir = C:\Users\iSpan\Young-Artists\Young-Artists\Young-Artists\Young-Artists\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Young-Artists\Young-Artists\Young-Artists\Young-Artists
+build_property.MSBuildProjectDirectory = C:\Users\iSpan\Young-Artists\Young-Artists\Young-Artists\Young-Artists
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/Announcement/Create.cshtml]
+[C:/Users/iSpan/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/Announcement/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5ub3VuY2VtZW50XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/Announcement/Edit.cshtml]
+[C:/Users/iSpan/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/Announcement/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5ub3VuY2VtZW50XEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/Announcement/List.cshtml]
+[C:/Users/iSpan/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/Announcement/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5ub3VuY2VtZW50XExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/Commodity/Create.cshtml]
+[C:/Users/iSpan/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/Commodity/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9kaXR5XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/Commodity/Edit.cshtml]
+[C:/Users/iSpan/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/Commodity/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9kaXR5XEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/Commodity/List.cshtml]
+[C:/Users/iSpan/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/Commodity/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9kaXR5XExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/Customers/Create.cshtml]
+[C:/Users/iSpan/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/Customers/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/Customers/Edit.cshtml]
+[C:/Users/iSpan/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/Customers/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/Customers/List.cshtml]
+[C:/Users/iSpan/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/Customers/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/Detail/Create.cshtml]
+[C:/Users/iSpan/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/Detail/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/Detail/Edit.cshtml]
+[C:/Users/iSpan/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/Detail/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/Detail/List.cshtml]
+[C:/Users/iSpan/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/Detail/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/Home/Index.cshtml]
+[C:/Users/iSpan/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/Home/Privacy.cshtml]
+[C:/Users/iSpan/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/OrderForm/Create.cshtml]
+[C:/Users/iSpan/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/OrderForm/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJGb3JtXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/OrderForm/Edit.cshtml]
+[C:/Users/iSpan/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/OrderForm/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJGb3JtXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/OrderForm/List.cshtml]
+[C:/Users/iSpan/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/OrderForm/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJGb3JtXExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/OrderForm/List2.cshtml]
+[C:/Users/iSpan/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/OrderForm/List2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJGb3JtXExpc3QyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/OrderForm/QueryCommodity.cshtml]
+[C:/Users/iSpan/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/OrderForm/QueryCommodity.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJGb3JtXFF1ZXJ5Q29tbW9kaXR5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/OrderForm/QueryCustomer.cshtml]
+[C:/Users/iSpan/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/OrderForm/QueryCustomer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJGb3JtXFF1ZXJ5Q3VzdG9tZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/OrderForm/QueryId.cshtml]
+[C:/Users/iSpan/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/OrderForm/QueryId.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJGb3JtXFF1ZXJ5SWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/Shared/Error.cshtml]
+[C:/Users/iSpan/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/iSpan/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/_ViewImports.cshtml]
+[C:/Users/iSpan/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/_ViewStart.cshtml]
+[C:/Users/iSpan/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/Shared/_Layout.cshtml]
+[C:/Users/iSpan/Young-Artists/Young-Artists/Young-Artists/Young-Artists/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-4bz110lkr2

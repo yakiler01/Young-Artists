@@ -10058,11 +10058,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Young-Artists\\Young-Artists\\Young-Artists\\Young-Artists\\Young-Artists.csproj",
+      "projectUniqueName": "C:\\Users\\iSpan\\Young-Artists\\Young-Artists\\Young-Artists\\Young-Artists\\Young-Artists.csproj",
       "projectName": "Young-Artists",
-      "projectPath": "C:\\Young-Artists\\Young-Artists\\Young-Artists\\Young-Artists\\Young-Artists.csproj",
+      "projectPath": "C:\\Users\\iSpan\\Young-Artists\\Young-Artists\\Young-Artists\\Young-Artists\\Young-Artists.csproj",
       "packagesPath": "C:\\Users\\iSpan\\.nuget\\packages\\",
-      "outputPath": "C:\\Young-Artists\\Young-Artists\\Young-Artists\\Young-Artists\\obj\\",
+      "outputPath": "C:\\Users\\iSpan\\Young-Artists\\Young-Artists\\Young-Artists\\Young-Artists\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -10137,13 +10137,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "讀取快取檔案 C:\\Young-Artists\\Young-Artists\\Young-Artists\\Young-Artists\\obj\\project.nuget.cache 時發生問題: Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
