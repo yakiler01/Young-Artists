@@ -12,16 +12,16 @@
 <table class="table">
     <thead>
         <tr>
-            <th width="100">
+            <th width="70" >
                 編號
             </th>
-            <th width="200">
+            <th width="140">
                 @Html.DisplayNameFor(model => model.AnnouncementType)
             </th>
-            <th width="200">
+            <th width="230">
                 @Html.DisplayNameFor(model => model.ContentTitle)
             </th>
-            <th>
+            <th width="100">
                 @Html.DisplayNameFor(model => model.ContentTime)
             </th>
             <th width="800">
@@ -40,27 +40,27 @@
             {
                 count++;
                 <tr>
-                    <td>
+                    <td class="align-middle">
                         @count
                     </td>
-                    <td>
+                    <td class="align-middle">
                         @Html.DisplayFor(modelItem => item.AnnouncementType)
                     </td>
-                    <td>
+                    <td class="align-middle">
                         @Html.DisplayFor(modelItem => item.ContentTitle)
-                    </td>
-                    <td>
+                    </td class="align-middle">
+                    <td class="align-middle">
                         @Html.DisplayFor(modelItem => item.ContentTime)
                     </td>
-                    <td>
+                    <td class="align-middle">
                         @Html.DisplayFor(modelItem => item.Content)
                     </td>
-                    <td>
+                    <td class="align-middle">
                         @Html.ActionLink("詳細資訊", "List","Detail",new { id=item.DetailsId },new {Class ="btn btn-primary"})
                         @Html.DisplayFor(modelItem => item.DetailsId)
                     </td>
-                    <td width="300">
-                        @Html.ActionLink("編輯", "Edit",new { id=item.Aid },new {Class ="btn btn-primary"}) 
+                    <td width="300" class="align-middle">
+                        @Html.ActionLink("編輯", "Edit",new { id=item.Aid },new {Class ="btn btn-success"})
                         @Html.ActionLink("刪除", "Delete" , new { id=item.Aid }, new { onclick ="return confirm('確定要刪除嗎?')" ,Class = "btn btn-danger"})
                     </td>
                 </tr>

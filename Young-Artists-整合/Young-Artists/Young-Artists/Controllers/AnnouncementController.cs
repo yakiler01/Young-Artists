@@ -68,7 +68,7 @@ namespace Young_Artists.Controllers
                 ann.DetailsId = a.DetailsId;
                 art.SaveChangesAsync();
             }
-            return View(ann);
+            return RedirectToAction("List");
         }
     }
 }
