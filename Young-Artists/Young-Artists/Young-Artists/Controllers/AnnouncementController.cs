@@ -22,6 +22,7 @@ namespace Young_Artists.Controllers
         public IActionResult Create(Announcement a)
         {
             YoungArtistsContext art = new YoungArtistsContext();
+            a.ContentTime = DateTime.Now.ToString("G");
             art.Announcements.Add(a);
             art.SaveChanges();
             return RedirectToAction("List");
