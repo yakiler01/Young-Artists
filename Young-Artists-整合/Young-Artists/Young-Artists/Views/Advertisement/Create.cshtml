@@ -49,14 +49,14 @@
             </div>
             <div class="form-group">
                 <label asp-for="CompanyId" class="control-label"></label>
+                <a href="@Url.Action("List", "Company")" target="_blank">查詢廠商ID</a>
                 <input asp-for="CompanyId" class="form-control" required />
-                <a href="@Url.Action("List", "Company")">查詢廠商ID</a>
                 <span asp-validation-for="CompanyId" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="EventId" class="control-label"></label>
+                <a href="@Url.Action("List", "Event")" target="_blank">查詢活動ID</a>
                 <input asp-for="EventId" class="form-control" required />
-                <a href="@Url.Action("List", "Event")">查詢活動ID</a>
                 <span asp-validation-for="EventId" class="text-danger"></span>
             </div>
             <div class="form-group">
