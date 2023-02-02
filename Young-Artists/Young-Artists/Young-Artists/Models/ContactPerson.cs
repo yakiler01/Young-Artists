@@ -10,7 +10,7 @@ namespace Young_Artists.Models
         public string? ContactpersonTitle { get; set; }
         public string? ContactpersonPhone { get; set; }
         public string? ContactpersonEmail { get; set; }
-        public string? CompanyId { get; set; }
+        public int? CompanyId { get; set; }
         public bool? ContactpersonOnline { get; set; }
     }
 }

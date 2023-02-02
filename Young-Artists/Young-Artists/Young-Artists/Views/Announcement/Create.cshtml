@@ -1,0 +1,77 @@
+﻿@model Young_Artists.Models.Announcement
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>新增公告</h1>
+
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            @*            <div class="form-group">
+            <label asp-for="Aid" class="control-label"></label>
+            <input asp-for="Aid" class="form-control" />
+            <span asp-validation-for="Aid" class="text-danger"></span>
+            </div>*@
+            <div class="form-group">
+                <label asp-for="AnnouncementType" class="control-label"></label>
+                <input asp-for="AnnouncementType" class="form-control" id="AnnouncementTypeinput" hidden />
+                <select id="AnnouncementTypeselect">
+                    <optgroup label="請選擇公告類型">
+                        <option selected disabled hidden>請選擇公告類型</option>
+                        <option value="系統公告">系統公告</option>
+                        <option value="異動公告">異動公告</option>
+                    </optgroup>
+                </select>
+                <span asp-validation-for="AnnouncementType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ContentTitle" class="control-label"></label>
+                <input asp-for="ContentTitle" class="form-control" />
+                <span asp-validation-for="ContentTitle" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ContentTime" class="control-label"></label>
+                <input asp-for="ContentTime" class="form-control" type="date" />
+                <span asp-validation-for="ContentTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Content" class="control-label"></label>
+                <textarea asp-for="Content" class="form-control" rows="6" cols="40"></textarea>
+                @*                <input asp-for="Content" class="form-control" type="text" rows="6" cols="40"/>
+                *@                <span asp-validation-for="Content" class="text-danger"></span>
+            </div>
+            @*            <div class="form-group">
+            <label asp-for="DetailsId" class="control-label"></label>
+            <input asp-for="DetailsId" class="form-control" />
+            <span asp-validation-for="DetailsId" class="text-danger"></span>
+            </div>*@
+            <div class="form-group">
+                <input type="submit" value="新增" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="List">取消</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+<script>
+    let AnnouncementTypeselect = document.querySelector("#AnnouncementTypeselect");
+
+    let AnnouncementTypeinput = document.querySelector("#AnnouncementTypeinput");
+
+    AnnouncementTypeselect.addEventListener("change", function () {
+        AnnouncementTypeinput.value = AnnouncementTypeselect.value;
+    })
+</script>

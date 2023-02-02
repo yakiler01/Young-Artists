@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Young-Artists\\Young-Artists\\Young-Artists_Customers.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Young-Artists\\Young-Artists\\Young-Artists_Customers.csproj",
         "packagesPath": "C:\\Users\\iSpan\\.nuget\\packages\\",
         "outputPath": "C:\\Young-Artists\\Young-Artists\\obj\\",
+=======
+    "C:\\Users\\iSpan\\Young-Artists\\Young-Artists_customer\\Young-Artists_Customers.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\iSpan\\Young-Artists\\Young-Artists_customer\\Young-Artists_Customers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\iSpan\\Young-Artists\\Young-Artists_customer\\Young-Artists_Customers.csproj",
+        "projectName": "Young-Artists_Customers",
+        "projectPath": "C:\\Users\\iSpan\\Young-Artists\\Young-Artists_customer\\Young-Artists_Customers.csproj",
+        "packagesPath": "C:\\Users\\iSpan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\iSpan\\Young-Artists\\Young-Artists_customer\\obj\\",
+>>>>>>> e205a790f5e044dbaf48b2f18f8511e50e726225
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
