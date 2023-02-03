@@ -1,0 +1,140 @@
+﻿@model IEnumerable<Young_Artists.ViewModels.TicketOrderKeywordViewModel>
+
+@{
+	ViewData["Title"] = "List_Detail";
+}
+
+<div class="pagetitle">
+	<h1>訂單中的票</h1>
+</div>
+<div class="card">
+	<div class="card-body">
+		@using (Html.BeginForm())
+		{
+			<div class="my-4">
+				<lable class="card-title">請輸入訂單id</lable>
+				@Html.TextBox("id")
+				<input type="submit" value="查詢" />
+			</div>
+		}
+		<div class="d-flex my-3">
+			<div class="btn-group me-3">
+				<a class="nav-link dropdown-toggle text-white btn btn-primary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					訂單明細管理
+				</a>
+				<ul class="dropdown-menu position-absolute right">
+					<li><a class="dropdown-item " href="~/TicketOrder/List">回到訂單明細列表</a></li>
+					<li><a class="dropdown-item " href="~/TicketOrder/Create">後端建立新訂單明細</a></li>
+					<li><a class="dropdown-item " href="~/FrontCode/Buy">前端建立新訂單明細</a></li>
+
+				</ul>
+			</div>
+			<div class="btn-group me-3">
+				<a class="nav-link dropdown-toggle text-white btn btn-primary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					查看訂單中的票
+				</a>
+				<ul class="dropdown-menu position-absolute right">
+					<li><a class="dropdown-item " href="~/TicketOrder/List_Detail">查看全體訂單中的票</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="card">
+	<div class="card-body">
+
+		<div class="form-group">
+			<div class="col-auto">
+				<a asp-action="List" class="btn btn-secondary my-3">返回訂單列表</a>
+			</div>
+		</div>
+		<table class="table">
+			<thead>
+				<tr>
+
+					<th>
+						@Html.DisplayNameFor(model => model.OrderId)
+					</th>
+					<th>
+						@Html.DisplayNameFor(model => model.OrderTotalPrice)
+					</th>
+					<th>
+						@Html.DisplayNameFor(model => model.OrderCreateTimestamp)
+					</th>
+					<th>
+						@Html.DisplayNameFor(model => model.OrderUpdateTimestamp)
+					</th>
+					<th>
+						@Html.DisplayNameFor(model => model.OrderUpdateId)
+					</th>
+					<th>
+						@Html.DisplayNameFor(model => model.OrderState)
+					</th>
+					<th>
+						@Html.DisplayNameFor(model => model.EventId)
+					</th>
+					<th>
+						@Html.DisplayNameFor(model => model.Area)
+					</th>
+					<th>
+						@Html.DisplayNameFor(model => model.SeatId)
+					</th>
+					<th>
+						@Html.DisplayNameFor(model => model.CustomerId)
+					</th>
+					<th></th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach (var item in Model)
+				{
+					<tr>
+
+						<td>
+							@Html.DisplayFor(modelItem => item.OrderId)
+						</td>
+						<td>
+							@Html.DisplayFor(modelItem => item.OrderTotalPrice)
+						</td>
+						<td>
+							@Html.DisplayFor(modelItem => item.OrderCreateTimestamp)
+						</td>
+						<td>
+							@Html.DisplayFor(modelItem => item.OrderUpdateTimestamp)
+						</td>
+						<td>
+							@Html.DisplayFor(modelItem => item.OrderUpdateId)
+						</td>
+						<td>
+							@Html.DisplayFor(modelItem => item.OrderState)
+						</td>
+						<td>
+							@Html.DisplayFor(modelItem => item.EventId)
+						</td>
+						<td>
+							@Html.DisplayFor(modelItem => item.Area)
+						</td>
+						<td>
+							@Html.DisplayFor(modelItem => item.SeatId)
+						</td>
+						<td>
+							@Html.DisplayFor(modelItem => item.CustomerId)
+						</td>
+						<td>
+							<div class="d-flex justify-content-end">
+								<div>
+									@Html.ActionLink("", "Edit_Detail","TicketOrder", new { id = item.Id } , new{@class = "btn btn-warning bi bi-brush text-white"})
+								</div>
+								<div class="ms-3">
+									@Html.ActionLink("", "Delete_Detail", "TicketOrder", new { id = item.Id },new { onclick = "return confirm('是否確定要刪除此訂單中的票?')",@class = "btn btn-danger bi bi-trash3 text-white" })
+								</div>
+
+							</div>
+						</td>
+
+					</tr>
+				}
+			</tbody>
+		</table>
+	</div>
+</div>

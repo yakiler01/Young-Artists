@@ -1,0 +1,67 @@
+﻿@model Young_Artists.Models.ContactPerson
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+
+<div class="pagetitle">
+    <h1>新增連路人</h1>
+    <section class="section">
+        <div class="row">
+            <div class="col-lg-6">
+            </div><!-- End Page Title -->
+
+<h4>輸入聯絡人資料</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            
+            <div class="form-group">
+                <label asp-for="ContactpersonName" class="control-label"></label>
+                <input asp-for="ContactpersonName" class="form-control" required/>
+                <span asp-validation-for="ContactpersonName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ContactpersonTitle" class="control-label"></label>
+                <input asp-for="ContactpersonTitle" class="form-control" required/>
+                <span asp-validation-for="ContactpersonTitle" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ContactpersonPhone" class="control-label"></label>
+                <input asp-for="ContactpersonPhone" class="form-control" type="tel" required />
+                <span asp-validation-for="ContactpersonPhone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ContactpersonEmail" class="control-label"></label>
+                <input asp-for="ContactpersonEmail" class="form-control" type="email" required />
+                <span asp-validation-for="ContactpersonEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CompanyId" class="control-label"></label>
+                <a href="@Url.Action("List", "Company")" target="_blank">查詢廠商ID</a>
+                <input asp-for="CompanyId" class="form-control" required />
+                <span asp-validation-for="CompanyId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ContactpersonOnline" class="control-label"></label>
+                <select class="form-select" aria-label="Default select example" name="ContactpersonOnline">
+                    <option value="true">正常</option>
+                    <option value="false">停用</option>
+                </select>
+                <span asp-validation-for="ContactpersonOnline" class="text-danger"></span>
+            </div>
+                <div class="form-group">
+                     <input type="submit" value="新增" class="btn btn-primary my-3" />
+                     <a asp-action="List" class="btn btn-secondary my-3">取消</a>
+                  </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

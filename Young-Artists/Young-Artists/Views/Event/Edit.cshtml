@@ -1,0 +1,102 @@
+﻿@model Young_Artists.Models.Event
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="pagetitle">
+<h1>編輯活動資訊</h1>
+    <div class="my-4 pagetitle">
+        <b class="card-title">請輸入更新資訊</b>
+    </div>
+ </div>
+ <hr/>
+ <section class="section">
+    <div class="row">
+        <div class="col-lg-6">
+            <form asp-action="Edit" enctype="multipart/form-data">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <input asp-for="EventId" class="form-control" hidden />
+            <div class="form-group">
+                <label class="control-label">活動照片</label>
+                <input type="file" name="photo" class="form-control" />
+                <span asp-validation-for="EventImage" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EventName" class="control-label">活動名稱</label>
+                <input asp-for="EventName" class="form-control" />
+                <span asp-validation-for="EventName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EventInfo" class="control-label">活動資訊</label>
+                <input asp-for="EventInfo" class="form-control" />
+                <span asp-validation-for="EventInfo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CompanyId" class="control-label">廠商ID</label>
+                <a href="@Url.Action("List", "Company")" target="_blank">查詢廠商ID</a>
+                <input asp-for="CompanyId" class="form-control" />
+                <span asp-validation-for="CompanyId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EventSellStartTimestamp" class="control-label">開始售票時間</label>
+                <div>
+                    @Html.TextBoxFor(model => model.EventSellStartTimestamp, new { @type = "datetime-local" })
+                </div>
+                <span asp-validation-for="EventSellStartTimestamp" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EventSellEndTimestamp" class="control-label">結束售票時間</label>
+                <div>
+                    @Html.TextBoxFor(model => model.EventSellEndTimestamp, new { @type = "datetime-local" })
+                </div>
+                <span asp-validation-for="EventSellEndTimestamp" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EventStartTimestamp" class="control-label">活動開始時間</label>
+                <div>
+                    @Html.TextBoxFor(model => model.EventStartTimestamp, new { @type = "datetime-local" })
+                </div>
+                <span asp-validation-for="EventStartTimestamp" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EventEndTimestamp" class="control-label">活動結束時間</label>
+                <div>
+                    @Html.TextBoxFor(model => model.EventEndTimestamp, new { @type = "datetime-local" })
+                </div>
+                <span asp-validation-for="EventEndTimestamp" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EventTypeId" class="control-label">活動種類ID</label>
+                <a href="@Url.Action("List", "EventType")" target="_blank">查詢活動種類ID</a>
+                <input asp-for="EventTypeId" class="form-control" />
+                <span asp-validation-for="EventTypeId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EventLocationId" class="control-label">活動位置ID</label>
+                <a href="@Url.Action("List", "EventLocation")" target="_blank">查詢活動位置ID</a>
+                <input asp-for="EventLocationId" class="form-control" />
+                <span asp-validation-for="EventLocationId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+            <label asp-for="EventIsstate" class="control-label">活動上下架狀態</label>
+            <select asp-for="EventIsstate" class="form-select" aria-label="Default select example">
+            <option value="true">true</option>
+            <option value="false">false</option>
+            </select>
+            <span asp-validation-for="EventIsstate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="修改" class="btn btn-primary my-3" />
+                <a asp-action="List" class="btn btn-secondary my-3">取消</a>
+            </div>
+        </form>
+    </div>
+</div>
+</section>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

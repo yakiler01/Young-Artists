@@ -1,0 +1,84 @@
+﻿@model Young_Artists.ViewModels.CAdvertisementViewModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>新增廣告</h1>
+
+<h4>輸入廣告資訊</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            
+            <div class="form-group">
+                <label asp-for="AdvertisementId" class="control-label"></label>
+                <input asp-for="AdvertisementId" class="form-control" required/>
+                <span asp-validation-for="AdvertisementId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AdvertisementName" class="control-label"></label>
+                <input asp-for="AdvertisementName" class="form-control" required />
+                <span asp-validation-for="AdvertisementName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">廣告圖片</label>
+                <input type="file" class="form-control" name="photo" />
+            </div>
+            <div class="form-group">
+                <label asp-for="AdvertisementAlt" class="control-label"></label>
+                <input asp-for="AdvertisementAlt" class="form-control" required />
+                <span asp-validation-for="AdvertisementAlt" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AdvertisementHref" class="control-label"></label>
+                <input asp-for="AdvertisementHref" class="form-control" type="url" required />
+                <span asp-validation-for="AdvertisementHref" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AdvertisementStartdate" class="control-label"></label>
+                <input asp-for="AdvertisementStartdate" class="form-control" type="date" required />
+                <span asp-validation-for="AdvertisementStartdate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AdvertisementEnddate" class="control-label"></label>
+                <input asp-for="AdvertisementEnddate" class="form-control" type="date" required />
+                <span asp-validation-for="AdvertisementEnddate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CompanyId" class="control-label"></label>
+                <a href="@Url.Action("List", "Company")" target="_blank">查詢廠商ID</a>
+                <input asp-for="CompanyId" class="form-control" required />
+                <span asp-validation-for="CompanyId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EventId" class="control-label"></label>
+                <a href="@Url.Action("List", "Event")" target="_blank">查詢活動ID</a>
+                <input asp-for="EventId" class="form-control" required />
+                <span asp-validation-for="EventId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AdvertisementOnline" class="control-label"></label>
+                <select class="form-select" aria-label="Default select example" name="AdvertisementOnline">
+                    <option value="true">上架</option>
+                    <option value="false">下架</option>
+                </select>
+                <span asp-validation-for="AdvertisementOnline" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="送出" class="btn btn-primary" />
+                <a asp-action="List" class="btn btn-secondary my-3">取消</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

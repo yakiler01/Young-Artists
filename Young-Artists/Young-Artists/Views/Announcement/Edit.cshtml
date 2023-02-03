@@ -1,0 +1,63 @@
+﻿@model Young_Artists.Models.Announcement
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="pagetitle">
+    <h1>編輯公告</h1>
+</div><!-- End Page Title -->
+
+
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Aid" class="control-label" hidden></label>
+                <input asp-for="Aid" class="form-control" hidden />
+                <span asp-validation-for="Aid" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AnnouncementType" class="control-label"></label>
+                <input asp-for="AnnouncementType" class="form-control" />
+                <span asp-validation-for="AnnouncementType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ContentTitle" class="control-label"></label>
+                <input asp-for="ContentTitle" class="form-control" />
+                <span asp-validation-for="ContentTitle" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ContentTime" class="control-label"></label>
+                <input asp-for="ContentTime" class="form-control" type="date" />
+                <span asp-validation-for="ContentTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Content" class="control-label"></label>
+                <textarea asp-for="Content" class="form-control" rows="6" cols="40"></textarea>
+                @*                <input asp-for="Content" class="form-control" />
+                *@                <span asp-validation-for="Content" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DetailsId" class="control-label" hidden></label>
+                <input asp-for="DetailsId" class="form-control" hidden />
+                <span asp-validation-for="DetailsId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                  <input type="submit" value="新增" class="btn btn-primary my-3" />
+                  <a asp-action="List" class="btn btn-secondary my-3">取消</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

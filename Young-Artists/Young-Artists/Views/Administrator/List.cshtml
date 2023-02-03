@@ -1,0 +1,70 @@
+﻿@model IEnumerable<Young_Artists.Models.Administrator>
+
+@{
+    ViewData["Title"] = "List";
+}
+<div class="pagetitle">
+    <h1>管理員帳號列表</h1>
+</div><!-- End Page Title -->
+<div class="card">
+    <div class="card-body">     
+
+        <p>
+            <a asp-action="Create" class="btn-primary btn bi bi-person-plus text-white">新增管理員帳號</a>
+        </p>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>
+                        序
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.AdministratorAccount)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.AdministratorPassword)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.AdministratorCreatTimestamp)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.AdministratorUpdateTimestamp)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    int count = 0;
+                    foreach (var item in Model)
+                    {
+                        count++;
+                        <tr>
+                            <td>
+                                @count
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.AdministratorAccount)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.AdministratorPassword)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.AdministratorCreatTimestamp)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.AdministratorUpdateTimestamp)
+                            </td>
+                            <td>
+                                @Html.ActionLink("", "Edit", "Administrator", new { id = item.AdministratorId }, new { @Class = "btn btn-warning bi bi-brush text-white"})
+                                @Html.ActionLink("", "Delete", "Administrator", new { id = item.AdministratorId },
+                        new { onclick = "return confirm('確定要刪除嗎?')" , Class = "btn btn-danger bi bi-trash3 text-white" })
+
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

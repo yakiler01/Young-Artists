@@ -1,0 +1,74 @@
+﻿@model IEnumerable<Young_Artists.Models.Announcement>
+
+@{
+    ViewData["Title"] = "List";
+}
+<div class="pagetitle">
+    <h1>公告管理一覽</h1>
+</div><!-- End Page Title -->
+<div class="card">
+    <div class="card-body">  
+
+<p>
+    <a asp-action="Create" text-decoration:none class="btn btn-primary">新增公告</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th width="70" >
+                編號
+            </th>
+            <th width="140">
+                @Html.DisplayNameFor(model => model.AnnouncementType)
+            </th>
+            <th width="230">
+                @Html.DisplayNameFor(model => model.ContentTitle)
+            </th>
+            <th width="120">
+                @Html.DisplayNameFor(model => model.ContentTime)
+            </th>
+            <th width="800">
+                @Html.DisplayNameFor(model => model.Content)
+            </th>
+            <th width ="200">
+                @Html.DisplayNameFor(model => model.DetailsId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            int count = 0;
+            foreach (var item in Model)
+            {
+                count++;
+                <tr>
+                    <td class="align-middle">
+                        @count
+                    </td>
+                    <td class="align-middle">
+                        @Html.DisplayFor(modelItem => item.AnnouncementType)
+                    </td>
+                    <td class="align-middle">
+                        @Html.DisplayFor(modelItem => item.ContentTitle)
+                    </td class="align-middle">
+                    <td class="align-middle">
+                        @Html.DisplayFor(modelItem => item.ContentTime)
+                    </td>
+                    <td class="align-middle">
+                        @Html.DisplayFor(modelItem => item.Content)
+                    </td>
+                    <td class="align-middle">
+                        @Html.ActionLink("詳細資訊", "List","Detail",new { id=item.DetailsId },new {Class ="btn btn-primary"})
+                    </td>
+                    <td width="300" class="align-middle">
+                        @Html.ActionLink("", "Edit",new { id=item.Aid },new {Class ="btn btn-warning bi bi-brush text-white"})
+                        @Html.ActionLink("", "Delete" , new { id=item.Aid }, new { onclick ="return confirm('確定要刪除嗎?')" ,Class = "btn btn-danger bi bi-trash3 text-white"})
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+    </div>
+</div>
