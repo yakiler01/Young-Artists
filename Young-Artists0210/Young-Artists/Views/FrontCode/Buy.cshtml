@@ -1,0 +1,274 @@
+﻿@model IEnumerable<Young_Artists.Models.SeatStock>
+
+@{
+	ViewBag.Title = "Buy";
+
+	List<int> priceInt = new List<int>();
+	List<object> order = new List<object>();
+	int title = 0;
+	foreach (var item in Model)
+	{
+		title = item.EventId;
+		int price = Convert.ToInt32(item.Price);
+		priceInt.Add(price);
+	}
+
+
+}
+<div class="d-flex justify-content-center">
+	<div class="col-9">
+		<div class="pagetitle">
+			<h1>購票</h1>
+		</div>
+
+		<section>
+			<div class="card col-12">
+				<div class="card-body">
+					<div class="my-2 pagetitle">
+						<b class="card-title">請選擇要購買的票</b>
+					</div>
+					<form method="post" action="~/FrontCode/Confirm2">
+						<p>
+							會員id :
+							<b id="customer_id">@ViewBag.Account</b>
+						</p>
+						<p>
+							活動id :
+							<b id="event_id">@title</b>
+						</p>
+						<div class="container">
+							<div class="row d-flex justify-content-center ">
+								<table class="table w-75">
+									<tr>
+										<th>區域</th>
+										<th>價格</th>
+										<th>數量</th>
+										<th></th>
+									</tr>
+									<tr>
+
+										<td>
+											<select id="priceSelect">
+												@foreach (var item in Model)
+												{
+													<option>@item.Area</option>
+												}
+											</select>
+										</td>
+										<td>
+
+											<span id="price">@Model.First().Price</span>
+
+										</td>
+
+										<td>
+											<input type="button" value="-" id="minus" />
+											<input value="0" style="max-width:50px;" class="text-center" id="count" />
+											<input type="button" value="+" id="plus" />
+										</td>
+										<td>
+											<input type="button" value="加入購物車" class="btn btn-success" id="AddToShoppingCart">
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+						<div class="container">
+							<div class="row d-flex justify-content-center ">
+								<p class="w-75 p-0">購物車</p>
+								<table class="table table-bordered w-75 text-center" id="ShoppingCart">
+									<thead>
+										<tr>
+											<th style="width:20%;">區域</th>
+											<th style="width:20%;">價格</th>
+											<th style="width:20%;">數量</th>
+											<th style="width:20%;">小計</th>
+											<th style="width:20%;">選項</th>
+										</tr>
+									</thead>
+									<tbody id="tbody">
+									</tbody>
+
+								</table>
+							</div>
+						</div>
+						<hr />
+						<div class="container">
+							<div class="row d-flex justify-content-end">
+								<div class="col-3">
+									<div class="form-group d-flex justify-content-end me-3">
+										<div class="col-auto">
+											<p>總價 : <strong id="total_price" style="color: red;"></strong> </p>
+										</div>
+									</div>
+									<div class="form-group d-flex justify-content-end">
+										<div class="col-auto">
+											<input type="text" value="" class="getText" name="jsonString" hidden />
+											<input type="submit" id="order" value="下一步" class="btn btn-primary">
+											@*@Html.ActionLink("下一步", "Confirm2", "FrontCode", new { arrString = order }, new { @class = "btn btn-success" })*@
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+					</form>
+				</div>
+			</div>
+		</section>
+	</div>
+</div>
+<script src="~/js/jquery-3.6.3.js"></script>
+
+<script>
+	// 先計算總價一次
+	calculate_total_price();
+
+	let order = document.querySelector("#order");
+	let table = document.querySelector("#ShoppingCart");
+
+	// 區域變化 價格改變
+	let select = $('#priceSelect');
+
+	//select.change(() => {
+	//	a();
+	//})
+
+	///試做 代價格
+	changePrice();
+
+	select.change(() => {
+		changePrice();
+	})
+	function changePrice() {
+		var selectedValue = document.getElementById("priceSelect").value;
+		var prices = @Json.Serialize(Model.Select(x => new { x.Area, x.Price }).ToList());
+		var selectedPrice = prices.find(x => x.area === selectedValue).price;
+		document.getElementById("price").innerHTML = selectedPrice;
+	}
+
+
+	/////////////////////
+	//a();
+	//function a() {
+	//	switch (select.val()) {
+	//		case 'A區': $("#price").html("1000");
+	//			break;
+	//		case 'B區': $("#price").html("1500");
+	//			break;
+	//		case 'C區': $("#price").html("2000");
+	//			break;
+	//	}
+	//}
+	// 區域變化 價格改變
+
+	$('#plus').click((e) => {
+		let currentVal = parseInt($('#count').val());
+		e.preventDefault();
+		if (!isNaN(currentVal)) {
+			$('#count').val(currentVal + 1);
+		}
+	})
+
+
+	$('#AddToShoppingCart').click((e) => {
+		if (table.rows.length < 6) {
+			let selectVal = $('#priceSelect').val();
+			let price = $("#price").html();
+			let count = $('#count').val();
+
+			if (count > 0) {
+				let tr = document.createElement('tr');
+
+				tr.innerHTML = `<td>${selectVal}</td><td>${price}</td><td>${count}</td><td id="priceItem">${price * count}</td><td><input class="remove btn btn-danger" value="移出購物車"></td>`
+				$('#ShoppingCart').append(tr);
+				$('#count').val(0);
+				calculate_total_price();
+
+				let remove = $(".remove");
+				remove.click(function () {
+					let ok = confirm("確定要移出購物車嗎?");
+					if (ok) {
+						$(this).parent().parent().remove();
+						console.log($(this).parent().parent());
+						calculate_total_price();
+					}
+				})
+			}
+			else {
+				alert('請輸入大於0的數字');
+			}
+		}
+		else {
+			alert("一次最多只能下單5樣商品");
+		}
+
+	})
+	// 計算總價
+	function calculate_total_price() {
+		let total_price = 0;
+		let priceItem = document.querySelectorAll("#priceItem");
+		for (let i = 0; i < priceItem.length; i++) {
+			total_price += parseInt(priceItem[i].innerHTML);
+		}
+		$("#total_price").html(total_price);
+	}
+
+	$('#minus').click((e) => {
+		let currentVal = parseInt($('#count').val());
+		e.preventDefault();
+		if (!isNaN(currentVal) && currentVal > 0) {
+			$('#count').val(currentVal - 1);
+		}
+	})
+
+	// 下一步物件集合
+	let objArr = [];
+
+	$(order).click(() => {
+		let ok = confirm("下一步後即不能返回囉，要前往下一步嗎?");
+		if (ok) {
+			for (let i = 1; i < table.rows.length; i++) {
+				let obj = {
+					area: "",
+					price: 0,
+					stock: 0,
+					total_price: 0,
+					customer_id: 0,
+					event_id: 0
+				};
+				obj.customer_id = $('#customer_id').html();
+				obj.event_id = $("#event_id").html();
+				obj.area = table.rows[i].cells[0].innerHTML;
+				obj.price = parseInt(table.rows[i].cells[1].innerHTML);
+				obj.stock = parseInt(table.rows[i].cells[2].innerHTML);
+				obj.total_price = parseInt(table.rows[i].cells[3].innerHTML);
+				// if (obj.area != "") {
+				objArr.push(obj);
+				// }
+			}
+
+			if (objArr[0] == null) {
+				alert("請加入商品");
+				return false;
+			}
+			else {
+				console.log(objArr);
+				let jsonString = JSON.stringify(objArr);
+				$(".getText").val(jsonString);
+
+				objArr = [];
+				$('#tbody').text("");
+				calculate_total_price();
+			}
+		} else {
+			return false;
+		}
+
+	})
+
+
+
+
+</script>

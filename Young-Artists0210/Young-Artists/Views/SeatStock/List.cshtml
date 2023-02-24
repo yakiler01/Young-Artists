@@ -1,0 +1,97 @@
+﻿@model IEnumerable<Young_Artists.Models.SeatStock>
+
+@{
+	ViewData["Title"] = "List";
+}
+<div class="pagetitle">
+	<h1>座位庫存列表</h1>
+</div>
+<div class="card">
+	<div class="card-body">
+		@using (Html.BeginForm())
+		{
+			<div class="my-4">
+				<lable class="card-title">請輸入活動id</lable>
+				@Html.TextBox("id")
+				<input type="submit" value="查詢" />
+			</div>
+		}
+		<p>
+			<a asp-action="Create">新增座位庫存</a>
+		</p>
+	</div>
+</div>
+<div class="card">
+	<div class="card-body">
+		<table class="table">
+			<thead>
+				<tr>
+					<th>
+						@Html.DisplayNameFor(model => model.EventId)
+					</th>
+					<th>
+						@Html.DisplayNameFor(model => model.Area)
+					</th>
+					<th>
+						@Html.DisplayNameFor(model => model.Quantity)
+					</th>
+					<th>
+						@Html.DisplayNameFor(model => model.Stock)
+					</th>
+					<th>
+						@Html.DisplayNameFor(model => model.Sold)
+					</th>
+					<th>
+						@Html.DisplayNameFor(model => model.Price)
+					</th>
+					<th>
+						@Html.DisplayNameFor(model => model.IsAvailable)
+					</th>
+					<th></th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach (var item in Model)
+				{
+					<tr>
+
+						<td>
+							@Html.DisplayFor(modelItem => item.EventId)
+						</td>
+						<td>
+							@Html.DisplayFor(modelItem => item.Area)
+						</td>
+						<td>
+							@Html.DisplayFor(modelItem => item.Quantity)
+						</td>
+						<td>
+							@Html.DisplayFor(modelItem => item.Stock)
+						</td>
+						<td>
+							@Html.DisplayFor(modelItem => item.Sold)
+						</td>
+						<td>
+							@Html.DisplayFor(modelItem => item.Price)
+						</td>
+						<td>
+							@Html.DisplayFor(modelItem => item.IsAvailable)
+						</td>
+						<td>
+							<div class="d-flex justify-content-end">
+								<div>
+									@Html.ActionLink("", "Edit","SeatStock", new { id = item.Id } , new{@class = "btn btn-warning bi bi-brush text-white"})
+								</div>
+								<div class="ms-3">
+									@Html.ActionLink("", "Delete", "SeatStock", new { id = item.Id },new { onclick = "return confirm('是否確定要刪除此座位庫存?')",@class = "btn btn-danger bi bi-trash3 text-white" })
+								</div>
+								<div class="ms-3">
+									@Html.ActionLink("", "Continued", "SeatStock", new { id = item.Id },new { onclick = "return confirm('是否要切換上下架狀態?')", @class="btn btn-primary bi bi-arrow-down-up" })
+								</div>
+							</div>
+						</td>
+					</tr>
+				}
+			</tbody>
+		</table>
+	</div>
+</div>

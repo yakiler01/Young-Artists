@@ -1,0 +1,94 @@
+﻿@model Young_Artists.ViewModel.CCommodityViewModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>新增</h1>
+<h4>商品</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="CommodityName" class="control-label"></label>
+                <input asp-for="CommodityName" class="form-control" />
+                <span asp-validation-for="CommodityName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CommodityNarrative" class="control-label"></label>
+                <input asp-for="CommodityNarrative" class="form-control" />
+                <span asp-validation-for="CommodityNarrative" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CommodityPrice" class="control-label"></label>
+                <input asp-for="CommodityPrice" class="form-control" />
+                <span asp-validation-for="CommodityPrice" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CommodityNum" class="control-label"></label>
+                <input asp-for="CommodityNum" class="form-control" />
+                <span asp-validation-for="CommodityNum" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">產品照片</label>
+                <input type="file" class="form-control" name="photo" id="imgInput" />
+                <img id="imgPreview" style=" aspect-ratio:6/6" />
+            </div>
+            @*<div class="form-group">
+            <label asp-for="CommodityStart" class="control-label"></label>
+            <input asp-for="CommodityStart" class="form-control" />
+            <span asp-validation-for="CommodityStart" class="text-danger"></span>
+            </div>*@
+            <div class="form-group">
+                <label asp-for="CommodityClassification" class="control-label"></label>
+                <input asp-for="CommodityClassification" class="form-control" />
+                <span asp-validation-for="CommodityClassification" class="text-danger"></span>
+            </div>
+            @*<div class="form-group">
+            <label asp-for="CommodityState" class="control-label"></label>
+            <input asp-for="CommodityState" class="form-control" />
+            <span asp-validation-for="CommodityState" class="text-danger"></span>
+            </div>*@
+            <div class="form-group">
+                <label asp-for="CommodityState" class="control-label"></label>
+                <select asp-for="CommodityState" class="form-select" aria-label="Default select example" name="CommodityState">
+                    <option value="true">上架</option>
+                    <option value="false">下架</option>
+                </select>
+                <span asp-validation-for="CommodityState" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="新增" class="btn btn-primary my-3" />
+                <a asp-action="List" class="btn btn-secondary my-3">返回</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }
+    <script src="~/js/jquery-3.6.3.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#imgInput").change(function () {
+                if (this.files && this.files[0]) {
+                    var reader = new FileReader();
+                    reader.onload = function (e) {
+                        $("#imgPreview").attr("src", e.target.result);
+                        $("#imgPreview").attr("width", "600px");
+                    }
+                    reader.readAsDataURL(this.files[0]);
+                }
+            });
+        });
+    </script>

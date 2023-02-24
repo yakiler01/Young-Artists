@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2.0</title>
+</head>
+
+<body>
+
+
+    <div id="app">
+        <button @click="changeString">改變字串(methods)</button>
+        <button @click="changeNumber">改變數字(methods)</button>
+        <button @click="getString">讓mix得到兩個變數(methods)</button>
+        <p>number_variable : {{number_variable}}</p>
+        <p>string_variable : {{string_variable}}</p>
+
+        <p>mix (我是data中的mix，我是透過方法改變值) : {{ mix }}</p>
+        <p>computed (我是計算物件而非data，值發生改變時，我會即時反應return值) : {{getString_getNumber}}</p>
+        
+    </div>
+
+
+    <script src="./vue.global.js"></script>
+    <script>
+
+        
+        const app = {
+            //  data是個函數，需要return，因為是在調用時，返回裡面的屬性給調用者。在調用時需要加入this指向vue物件
+            //  因為上課都有講過這些東西的寫法，所以較多的說明留在下一個檔案。
+            //  這邊就隨便按一按，知道這些東西在幹嘛就好
+            data() {
+                return {
+                    number_variable: 0,
+                    string_variable: "我是字串",
+                    mix: "我還沒出現"
+                }
+            },
+            methods: {
+                changeString(){
+                    this.string_variable += "字串"
+                    
+                },
+                changeNumber(){
+                    this.number_variable +=1
+                },
+                getString() {
+                    this.mix = this.number_variable + this.string_variable
+                },
+
+            },
+            computed: {
+                getString_getNumber() {
+                    return this.number_variable + this.string_variable
+                }
+            },
+            template: ``,
+            mounted() {
+
+            },
+        }
+
+        const vm = Vue.createApp(app).mount("#app")
+
+
+    </script>
+</body>
+
+</html>

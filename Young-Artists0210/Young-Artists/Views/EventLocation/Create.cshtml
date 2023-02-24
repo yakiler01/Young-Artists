@@ -1,0 +1,59 @@
+﻿@model Young_Artists.Models.EventLocation
+
+@{
+    ViewData["Title"] = "Create";
+}
+<div class="pagetitle">
+    <h1>新增活動地點</h1>
+    <div class="my-4 pagetitle">
+        <b class="card-title">請輸入新增資訊</b>
+    </div>
+<hr />
+<section class="section">
+    <div class="row">
+        <div class="col-lg-6">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input asp-for="EventLocationId" class="form-control" hidden/>
+
+            <div class="form-group">
+                <label asp-for="EventLocationName" class="control-label">活動地點名稱</label>
+                <input asp-for="EventLocationName" class="form-control" />
+                <span asp-validation-for="EventLocationName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="EventLocationImage" class="control-label">活動地點圖片</label>
+                <input type="file" name="photo" class="form-control" />
+                <span asp-validation-for="EventLocationImage" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EventLocationInfo" class="control-label">活動地點資訊</label>
+                <input asp-for="EventLocationInfo" class="form-control" />
+                <span asp-validation-for="EventLocationInfo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EventLocationAddress" class="control-label">活動地點地址</label>
+                <input asp-for="EventLocationAddress" class="form-control" />
+                <span asp-validation-for="EventLocationAddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EventLocationIsstate" class="control-label"></label>
+                <select asp-for="EventLocationIsstate" class="form-select" aria-label="Default select example">
+                    <option value="true">true</option>
+                    <option value="false">false</option>
+                </select>
+                <span asp-validation-for="EventLocationIsstate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="新增" class="btn btn-primary my-3" />
+                <a asp-action="List" class="btn btn-secondary my-3">取消</a>
+            </div>
+        </form>
+    </div>
+</div>
+</section>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

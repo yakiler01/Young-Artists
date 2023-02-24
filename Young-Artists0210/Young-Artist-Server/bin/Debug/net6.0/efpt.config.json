@@ -1,0 +1,117 @@
+﻿{
+   "CodeGenerationMode": 2,
+   "ContextClassName": "Young-ArtistsContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "Young_Artist_Server",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[administrators]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[advertisement]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[announcement]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[commodity]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[company]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[contactPerson]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[customers]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[details]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[evaluation_form]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[event]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[event_collect]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[event_location]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[event_type]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[order_form]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[order_main]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[seat]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[seat_price]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[seat_stock]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ticket_order]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ticket_order_detail]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "desktop-0sluv75.Young-Artists.dbo",
+   "UncountableWords": null,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDateOnlyTimeOnly": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false,
+   "UseT4": false
+}

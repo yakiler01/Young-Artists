@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3.0</title>
+</head>
+
+<body>
+
+    <div id="app">
+        <p>=================================================================</p>
+        <button @click="changeString">改變字串(methods)</button>
+        <button @click="changeNumber">改變數字(methods)</button>
+        <button @click="changeMix">讓mix得到兩個變數(methods)</button>
+        <p>number_variable : {{number_variable}}</p>
+        <p>string_variable : {{string_variable}}</p>
+        <p>mix (我是data中的mix，我是透過方法改變值) : {{mix}}</p>
+        <p>computed (我是計算物件而非data，值發生改變時，我會即時反應return值) : {{getString_getNumber}}</p>
+        <p>=================================================================</p>
+        <button @click="change俊安的age">讓他變200歲</button>
+        <p>俊安的age : {{俊安.age}}</p>
+        <p>=================================================================</p>
+        <button @click="添加淑真的動畫清單">讓淑真看不完</button>
+        <button @click="減少淑真的動畫清單">不讓淑真看了</button>
+
+        <p>淑真的動畫清單 : </p>
+        <p v-for="(anime,index) in 淑真的動畫清單">{{index+1}}. {{anime}}</p>
+        <p>=================================================================</p>
+        <p v-for="aaaa in 淑真的動畫清單"></p>
+
+    </div>
+
+
+    <script src="./vue.global.js"></script>
+    <script>
+
+        // 【Part.0 引入物件】
+        const { ref,computed,watch,reactive} = Vue
+
+        const app = {
+
+        // 【Part.1 前言】
+
+                // 在進入setup之前，先來定義幾個概念 : 
+
+                // 1. 簡單數據類型 : const numberA = 12 ; const stringA = "字串" ; ( 數字類型、布林、字串類型 )
+                // 2. 複雜數據類型 : const objectA = { numberA: 12 , stringA : "字串" } ( 物件、陣列 )
+
+                // const 不能重新賦值，但可以讓物件裡面的屬性其屬性值改變 
+
+                // 例如 : objectA.numberA = 17 (O) | objectA = 17 (X)
+
+
+            // 在vue2.0中，data是個函數，需要return，因為是在調用時，返回裡面的屬性給調用者。在調用時需要加入this指向vue物件
+            // 而在這裡為何不是用「this.變數」來調用，而是用「變數.value」的形式，是因為要取ref物件中的 屬性(value) 
+            
+            // 我們可以當作是這樣 : 
+            
+            // ref = { 
+            //   value;
+            // }
+            
+            // 當我們宣告一個 const 俊廷 = ref("我是俊廷") 事實上 裡面是長這樣 ref = { value:"我是俊廷" } 所以當我們要修改值的時候，就是「俊廷.value = ?」
+            // 由於我們是修改複雜數據類型內部的屬性值，而不是重新賦予const變數一個值，所以不會出現const不能再次賦值的問題
+            // 我們只是修改ref物件裡面的屬性值
+            // 但因為要調用，所以同樣要寫return
+
+        // 【Part.2 ref、reactive響應式物件】
+
+            setup() {
+                //  setup 第一個優點 : 變數跟方法(函數)可以不用遠距離戀愛，可以放在一起寫，下面舉個比較誇張的例子 : 
+
+                //  data中的變數如果有很多個，假設data中的變數有1公尺那麼長，去methods寫方法(函數)來改變這個值，
+                //  我要先往下滾動1公尺到methods裡面寫要調用的變數，如果忘記了，我要再向上滾動1公尺上去，雖然分成data、methods區分很明確，但是東西一多，
+                //  可能就會造成這種問題。
+
+                //  1. 先寫對簡單數據類型的物件做響應 ref()
+                //========以下可以當成一對==================================================================================================================
+
+                // 這是原本的data中的變數
+                const number_variable = ref(0); // ref 物件 可以宣告成const 並改變裡面的值 ，因為他是物件，如果是宣告一般常數而非ref物件，則無法改變其值(即重新賦值)
+                // 這是原本的methods中的方法(函數)
+                const changeNumber = () => { // 綁定click事件
+                    number_variable.value += 1 // 點擊按鈕 讓 number_variable 數字+1
+                };
+
+                //========以上可以當成一對==================================================================================================================
+
+                // 當然不用這樣硬性規畫，會失去原本設計的彈性
+                const string_variable = ref("我是字串")
+                const changeString = () => { // 綁定click事件
+                    string_variable.value += "字串" // 點擊按鈕 讓 string_variable 加 "字串"
+                };
+
+                const mix = ref("我還沒出現") // 用changeMix方法改變 mix的值
+                const changeMix = () => { // 綁定click事件
+                    mix.value = number_variable.value + string_variable.value // 點擊按鈕 改變mix的值
+                };
+
+                //  2. 再寫對複雜數據類型的物件做響應 reactive()
+                
+                //  因為本身就是響應式物件，所以不用透過.value取值，物件裡面的屬性就是跟value一樣的東西，看不懂這句話的意思，建議重看46~52行
+
+                const 俊安 = reactive({
+                    age : 100,
+                    height : 200,
+                    weight : 80,
+                })
+
+                const change俊安的age = ()=>{ 俊安.age = 200}
+
+                const 淑真的動畫清單 = reactive(["工作細胞","工作細胞BLACK"])
+                const 添加淑真的動畫清單 = ()=>{ 淑真的動畫清單.push("工作細胞2023")}
+                const 減少淑真的動畫清單 = ()=>{ 淑真的動畫清單.pop(淑真的動畫清單[淑真的動畫清單.length-1])}
+
+
+                //=========================================================================================================================================
+        
+        // 【Part.3 常用函數】
+        
+                //  setup 第二個優點 : 原本在外面的東西都囊括進來了，像是computed、watch...等，寫法比較自由
+
+                //  認識常用的函數
+
+                //  1. computed 函數
+
+                //  其return值是一個響應式(雙向綁定)物件，所以可以直接像是一般的ref物件
+                //  用 {{ /*變數*/ }} 來做雙向綁定
+                //  至於為什麼這邊不用寫ref()把他們包進去 還是要寫 變數.value
+                //  這是因為我們是調用上面宣告的變數，他們早就被我們宣告是一個ref物件
+                //  如果顯示不出結果，就要檢查是不是沒有寫 .value 來調用變數
+                
+                //  語法 : computed(() => {return 看你想計算什麼}
+                const getString_getNumber = computed(() => {
+                    return number_variable.value + string_variable.value 
+                })
+
+                //=========================================================================================================================================
+
+                //  2. watch 函數
+                //  跟computed函數不同的是，1個物件只能監控1個變數或是方法(函數)
+                
+                //  語法 : watch(要監控的變數,(新值，舊值)=>{})
+
+                //  可以把變數包在陣列裡面，一次監控多值
+                watch([mix],(newValue,oldValue)=>{
+                    console.log(`${oldValue}--------->${newValue}`);
+                })
+                //  也可以宣告成const，但意義不大
+                //  這邊注意一點，監控的變數裡面，不能同時包含ref物件和reactive物件
+
+                //=========================================================================================================================================
+
+        // 【Part.4 尾聲】
+
+                //  以上寫了那麼多，接下來是setup中的最後一個區塊，我們要把上面這些東西 return (watch不是響應式物件不用return)
+                //  相當於2.0中 data的return，而且連methods、computed也都要return
+                //  這樣其實挺麻煩的，所以即將迎來重大改革，也就是3.2語法糖，可以看下一個檔案了
+                //  壞消息是 : 語法糖只能寫在vue組件，而引入vue組件要使用打包工具建構的環境，所以不能直接用html看
+                //  好消息是 : 之後寫東西都用打包工具建構的環境，提前適應也好
+
+                return {
+                    number_variable,
+                    string_variable,
+                    mix,
+                    changeString,
+                    changeNumber,
+                    changeMix,
+                    俊安,
+                    change俊安的age,
+                    淑真的動畫清單,
+                    添加淑真的動畫清單,
+                    減少淑真的動畫清單,
+                    getString_getNumber,
+                }
+                //  如果上面這樣寫有報錯，去瀏覽器F12 看console有沒有說，他不知道ref,computed,watch,reactive這些東西是什麼
+                //  如果有就去看最上面 const { ref,computed,watch,reactive} = Vue 有沒有漏寫
+            },
+        }
+
+        const vm = Vue.createApp(app).mount("#app")
+
+
+    </script>
+</body>
+
+</html>

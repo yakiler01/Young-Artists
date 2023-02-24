@@ -1,0 +1,66 @@
+﻿@model Young_Artists.Models.TicketOrder
+
+@{
+	ViewData["Title"] = "Create";
+}
+
+<div class="d-flex justify-content-center">
+	<div class="col-9">
+		<div class="pagetitle">
+			<h1>新增訂單明細</h1>
+		</div>
+
+		<section>
+
+			<div class="card col-12">
+				<div class="card-body">
+					<div class="my-2 pagetitle">
+						<b class="card-title">請輸入新增資訊</b>
+					</div>
+					<hr />
+					<div class="row">
+						<div class="col-12">
+							<form asp-action="Create">
+								<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+								<input type="text" name="Id" value="" hidden />
+
+
+								<div class="form-group mt-2 mb-3">
+									<label asp-for="OrderTotalPrice" class="control-label"></label>
+									<input asp-for="OrderTotalPrice" class="form-control" />
+									<span asp-validation-for="OrderTotalPrice" class="text-danger"></span>
+								</div>
+
+
+								<div class="form-group mb-5">
+									<label asp-for="OrderState" class="control-label"></label>
+									<div>
+										<select name="OrderState">
+											<option value="0">未處理</option>
+											<option value="1">處理中</option>
+											<option value="2">訂單完成</option>
+										</select>
+									</div>
+									<span asp-validation-for="OrderState" class="text-danger"></span>
+								</div>
+								<div class="form-group d-flex justify-content-end">
+									<div class="col-auto">
+										<input type="submit" value="新增" class="btn btn-primary" />
+										<a asp-action="List" class="btn btn-secondary my-3">取消</a>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+</div>
+
+@section Scripts {
+	@{
+		await Html.RenderPartialAsync("_ValidationScriptsPartial");
+	}
+}
