@@ -264,3 +264,5 @@ C:\Users\iSpan\Downloads\Young-Artists0210\Young-Artist-Server\obj\Debug\net6.0\
 C:\Users\iSpan\Downloads\Young-Artists0210\Young-Artist-Server\obj\Debug\net6.0\Young-Artist-Server.pdb
 C:\Users\iSpan\Downloads\Young-Artists0210\Young-Artist-Server\obj\Debug\net6.0\Young-Artist-Server.genruntimeconfig.cache
 C:\Users\iSpan\Downloads\Young-Artists0210\Young-Artist-Server\obj\Debug\net6.0\ref\Young-Artist-Server.dll
+C:\Users\iSpan\Downloads\Young-Artists0210\Young-Artist-Server\obj\Debug\net6.0\Young-Artist-Server.RazorAssemblyInfo.cache
+C:\Users\iSpan\Downloads\Young-Artists0210\Young-Artist-Server\obj\Debug\net6.0\Young-Artist-Server.RazorAssemblyInfo.cs

@@ -13,5 +13,6 @@ namespace Young_Artist_Server.Models
         public string OrderTime { get; set; }
         public int? QuantityOrder { get; set; }
         public bool? IsState { get; set; }
+        public bool? IsCart { get; set; }
     }
 }

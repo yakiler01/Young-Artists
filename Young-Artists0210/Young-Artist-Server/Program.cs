@@ -1,5 +1,6 @@
-using Microsoft.EntityFrameworkCore;
+ï»¿using Microsoft.EntityFrameworkCore;
 using Young_Artist_Server.Models;
+using Young_Artist_Server.Controllers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,14 +11,14 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Add services to the container. (container´N¬O®e¾¹ DIª`¤J)
+// Add services to the container. (containerï¿½Nï¿½Oï¿½eï¿½ï¿½ DIï¿½`ï¿½J)
 string YoungArtistsConnectionString = builder.Configuration.GetConnectionString("YoungArtists");
-// µù¥UªA°È
+// ï¿½ï¿½ï¿½Uï¿½Aï¿½ï¿½
 builder.Services.AddDbContext<YoungArtistsContext>(options => {
     options.UseSqlServer(connectionString: YoungArtistsConnectionString);
 });
 
-// CORS Strategy ¸ó°ìµ¦²¤
+// CORS Strategy ï¿½ï¿½ìµ¦ï¿½ï¿½
 var MyAllowOrigins = "AllowAny";
 builder.Services.AddCors(option => {
     option.AddPolicy(
@@ -36,13 +37,15 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-// ¸ó°ì
+// ï¿½ï¿½ï¿½
 app.UseCors();
-// ¸ó°ì
+// ï¿½ï¿½ï¿½
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
 app.MapControllers();
+
+//app.MapCommodityEndpoints();
 
 app.Run();

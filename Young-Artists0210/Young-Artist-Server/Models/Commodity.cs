@@ -2,6 +2,7 @@
 #nullable disable
 using System;
 using System.Collections.Generic;
+using Young_Artist_Server.Models;
 
 namespace Young_Artist_Server.Models
 {
@@ -19,4 +20,73 @@ namespace Young_Artist_Server.Models
         public string CommodityClassification { get; set; }
         public bool? CommodityState { get; set; }
     }
+
+
+//public static class CommodityEndpoints
+//{
+//	public static void MapCommodityEndpoints (this IEndpointRouteBuilder routes)
+//    {
+//        routes.MapGet("/api/Commodity", async (YoungArtistsContext db) =>
+//        {
+//            return await db.Commodity.ToListAsync();
+//        })
+//        .WithName("GetAllCommoditys")
+//        .Produces<List<Commodity>>(StatusCodes.Status200OK);
+
+//        routes.MapGet("/api/Commodity/{id}", async (int Id, YoungArtistsContext db) =>
+//        {
+//            return await db.Commodity.FindAsync(Id)
+//                is Commodity model
+//                    ? Results.Ok(model)
+//                    : Results.NotFound();
+//        })
+//        .WithName("GetCommodityById")
+//        .Produces<Commodity>(StatusCodes.Status200OK)
+//        .Produces(StatusCodes.Status404NotFound);
+
+//        routes.MapPut("/api/Commodity/{id}", async (int Id, Commodity commodity, YoungArtistsContext db) =>
+//        {
+//            var foundModel = await db.Commodity.FindAsync(Id);
+
+//            if (foundModel is null)
+//            {
+//                return Results.NotFound();
+//            }
+            
+//            db.Update(commodity);
+
+//            await db.SaveChangesAsync();
+
+//            return Results.NoContent();
+//        })   
+//        .WithName("UpdateCommodity")
+//        .Produces(StatusCodes.Status404NotFound)
+//        .Produces(StatusCodes.Status204NoContent);
+
+//        routes.MapPost("/api/Commodity/", async (Commodity commodity, YoungArtistsContext db) =>
+//        {
+//            db.Commodity.Add(commodity);
+//            await db.SaveChangesAsync();
+//            return Results.Created($"/Commoditys/{commodity.Id}", commodity);
+//        })
+//        .WithName("CreateCommodity")
+//        .Produces<Commodity>(StatusCodes.Status201Created);
+
+
+//        routes.MapDelete("/api/Commodity/{id}", async (int Id, YoungArtistsContext db) =>
+//        {
+//            if (await db.Commodity.FindAsync(Id) is Commodity commodity)
+//            {
+//                db.Commodity.Remove(commodity);
+//                await db.SaveChangesAsync();
+//                return Results.Ok(commodity);
+//            }
+
+//            return Results.NotFound();
+//        })
+//        .WithName("DeleteCommodity")
+//        .Produces<Commodity>(StatusCodes.Status200OK)
+//        .Produces(StatusCodes.Status404NotFound);
+//    }
+//}
 }

@@ -19,5 +19,7 @@ namespace Young_Artists.Models
         public int? QuantityOrder { get; set; }
         [DisplayName("訂單狀態")]
         public bool? IsState { get; set; }
+        [DisplayName("購物車狀態")]
+        public bool? IsCart { get; set; }
     }
 }

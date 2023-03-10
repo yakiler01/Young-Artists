@@ -330,9 +330,8 @@ namespace Young_Artist_Server.Models
 
                 entity.Property(e => e.Isstate).HasColumnName("isstate");
 
-                entity.Property(e => e.Narrative)
-                    .HasMaxLength(500)
-                    .HasColumnName("narrative");
+                entity.Property(e => e.Rate)
+                    .HasColumnName("Rate");
 
                 entity.Property(e => e.NumberId).HasColumnName("number_id");
             });
@@ -434,6 +433,8 @@ namespace Young_Artist_Server.Models
                 entity.Property(e => e.CommodityId).HasColumnName("commodity_id");
 
                 entity.Property(e => e.IsState).HasColumnName("isState");
+
+                entity.Property(e => e.IsCart).HasColumnName("isCart");
 
                 entity.Property(e => e.NumberId).HasColumnName("number_id");
 
