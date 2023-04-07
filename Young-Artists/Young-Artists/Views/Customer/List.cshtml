@@ -1,0 +1,217 @@
+﻿@*@model IEnumerable<Young_Artists.Models.Customer>*@
+@model X.PagedList.IPagedList<Young_Artists.Models.Customer>
+@using X.PagedList;
+@using X.PagedList.Mvc.Core;
+@{
+    ViewData["Title"] = "List";
+}
+<script src="~/js/jquery-3.6.3.js"></script>
+<link href="~/css/PagedList.css" rel="stylesheet" />
+<div class="pagetitle">
+    <h1>客戶資料一覽表</h1>
+</div><!-- End Page Title -->
+<div class="card">
+    <div class="card-body">
+
+        @using (Html.BeginForm())
+        {
+            <div class="my-4">
+                <lable class="card-title">關鍵字</lable>
+
+                @Html.TextBox("txtKeyword")
+                <input type="submit" value="查詢" />
+            </div>
+        }
+
+        <p>
+            <a asp-action="Create" class="btn-primary btn bi bi-person-plus text-white">新增客戶</a>
+        </p>
+        <table class="table table-hover">
+            <thead>
+                <tr style="150%">
+                    <input type="hidden" id="sort" name="sort">
+                    @*<th>
+                        序
+                    </th>*@
+                    <th>
+                        <label class="mt-checkbox mt-checkbox-single mt-checkbox-outline">
+                            <input id="btnCheckAll" type="checkbox" />
+                            <span>全選</span>
+                        </label>
+                        <div>ID</div>
+                        @Html.ActionLink("", "List", new { sortCustomer = "UpCustomerId" },new {Class="bi bi-caret-up-fill",onclick="setSortCustomer('UpCustomerId')"})
+                        @Html.ActionLink("", "List", new { sortCustomer = "DownCustomerId" },new {Class="bi bi-caret-down-fill",onclick="setSortCustomer('DownCustomerId')"})
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FirstOrDefault().CustomerName)
+                        @Html.ActionLink("", "List", new { sortCustomer = "UpCustomerName" },new {Class="bi bi-caret-up-fill",onclick="setSortCustomer('UpCustomerName')"})
+                        @Html.ActionLink("", "List", new { sortCustomer = "DownCustomerName" },new {Class="bi bi-caret-down-fill",onclick="setSortCustomer('DownCustomerName')"})
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FirstOrDefault().CustomerEmail)
+                        @Html.ActionLink("", "List", new { sortCustomer = "UpCustomerEmail" },new {Class="bi bi-caret-up-fill",onclick="setSortCustomer('UpCustomerEmail')"})
+                        @Html.ActionLink("", "List", new { sortCustomer = "DownCustomerEmail" },new {Class="bi bi-caret-down-fill",onclick="setSortCustomer('DownCustomerEmail')"})
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FirstOrDefault().CustomerPassword)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FirstOrDefault().CustomerPhone)
+                        @Html.ActionLink("", "List", new { sortCustomer = "UpCustomerPhone" },new {Class="bi bi-caret-up-fill",onclick="setSortCustomer('UpCustomerPhone')"})
+                        @Html.ActionLink("", "List", new { sortCustomer = "DownCustomerPhone" },new {Class="bi bi-caret-down-fill",onclick="setSortCustomer('DownCustomerPhone')"})
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FirstOrDefault().CustomerRegion)
+                        @Html.ActionLink("", "List", new { sortCustomer = "UpCustomerName" },new {Class="bi bi-caret-up-fill",onclick="setSortCustomer('UpCustomerRegion')"})
+                        @Html.ActionLink("", "List", new { sortCustomer = "DownCustomerRegion" },new {Class="bi bi-caret-down-fill",onclick="setSortCustomer('DownCustomerRegion')"})
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FirstOrDefault().CustomerAddress)
+                        @Html.ActionLink("", "List", new { sortCustomer = "UpCustomerAddress" },new {Class="bi bi-caret-up-fill",onclick="setSortCustomer('UpCustomerAddress')"})
+                        @Html.ActionLink("", "List", new { sortCustomer = "DownCustomerName" },new {Class="bi bi-caret-down-fill",onclick="setSortCustomer('DownCustomerAddress')"})
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FirstOrDefault().CustomerBirthDate)
+                        @Html.ActionLink("", "List", new { sortCustomer = "UpCustomerBirthDate" },new {Class="bi bi-caret-up-fill",onclick="setSortCustomer('UpCustomerBirthDate')"})
+                        @Html.ActionLink("", "List", new { sortCustomer = "DownCustomerBirthDate" },new {Class="bi bi-caret-down-fill",onclick="setSortCustomer('DownCustomerBirthDate')"})
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FirstOrDefault().CustomerGender)
+                        @Html.ActionLink("", "List", new { sortCustomer = "UpCustomerGender" },new {Class="bi bi-caret-up-fill",onclick="setSortCustomer('UpCustomerGender')"})
+                        @Html.ActionLink("", "List", new { sortCustomer = "DownCustomerGender" },new {Class="bi bi-caret-down-fill",onclick="setSortCustomer('DownCustomerGender')"})
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FirstOrDefault().CustomerCreatTimestamp)
+                        @Html.ActionLink("", "List", new { sortCustomer = "UpCustomerCreatTimestamp" },new {Class="bi bi-caret-up-fill",onclick="setSortCustomer('UpCustomerCreatTimestamp')"})
+                        @Html.ActionLink("", "List", new { sortCustomer = "DownCustomerCreatTimestamp" },new {Class="bi bi-caret-down-fill",onclick="setSortCustomer('DownCustomerCreatTimestamp')"})
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FirstOrDefault().CustomerUpdateTimestamp)
+                        @Html.ActionLink("", "List", new { sortCustomer = "UpCustomerUpdateTimestamp" },new {Class="bi bi-caret-up-fill",onclick="setSortCustomer('UpCustomerUpdateTimestamp')"})
+                        @Html.ActionLink("", "List", new { sortCustomer = "DownCustomerUpdateTimestamp" },new {Class="bi bi-caret-down-fill",onclick="setSortCustomer('DownCustomerUpdateTimestamp')"})
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    int count = 0;
+                    foreach (var item in Model)
+                    {
+                        count++;
+                        <tr>
+                            <td>
+                                
+                                <label>
+                                    <input type="checkbox" name="ck"                value="@item.CustomerId" />
+                                </label>
+                                @Html.DisplayFor(modelItem => item.CustomerId)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.CustomerName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.CustomerEmail)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.CustomerPassword)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.CustomerPhone)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.CustomerRegion)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.CustomerAddress)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.CustomerBirthDate)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.CustomerGender)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.CustomerCreatTimestamp)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.CustomerUpdateTimestamp)
+                            </td>
+                            <td>
+                                @Html.ActionLink("", "Edit", "Customer", new { id = item.CustomerId }, new { @Class = "btn btn-warning bi bi-brush text-white"})
+                                @Html.ActionLink("", "Delete", "Customer", new { id = item.CustomerId },
+                        new { onclick = "return confirm('確定要刪除嗎?')" , Class = "btn btn-danger bi bi-trash3 text-white" })
+
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+        <div id="Pager"
+        @Html.PagedListPager(Model, page => Url.Action("List", new {sortCommodity = ViewBag.sortBy, page }))
+             </div>
+    </div>
+</div>
+<style>
+        #Pager {
+        display:flex;
+        justify-content: center;
+    }
+    * {
+        font-size: 12px;
+    }
+
+</style>
+
+<script>
+    var sortType = "";
+    let chkVal = [];
+    $("#btnCheckAll").click(function () {
+        chkVal = [];
+        if ($("#btnCheckAll").prop("checked")) {
+            $("input[name='ck']").each(function () {
+                $(this).prop("checked", true);
+                chkVal.push($(this).val());
+            });
+        } else {
+            $("input[name='ck']").each(function () {
+                $(this).prop("checked", false);
+            });
+        }
+        console.log(chkVal);
+        $("#chkVal1").val(JSON.stringify(chkVal));
+        $("#chkVal2").val(JSON.stringify(chkVal));
+        $("#chkVal3").val(JSON.stringify(chkVal));
+    });
+    $("input[name='ck']").change(function () {
+        if ($(this).prop("checked")) {
+            chkVal.push($(this).val());
+        } else {
+            var index = chkVal.indexOf($(this).val());
+            if (index > -1) {
+                chkVal.splice(index, 1);
+            }
+        }
+        console.log(chkVal);
+        $("#chkVal1").val(JSON.stringify(chkVal));
+        $("#chkVal2").val(JSON.stringify(chkVal));
+        $("#chkVal3").val(JSON.stringify(chkVal));
+    });
+    //排序分頁保存資料
+    function setSortCommodity(SortCommodity) {
+        $(".sort") = SortCommodity;
+        console.log(sortType);
+    }
+                    //測試方法
+    /*function setSortCommodity(sortType) {
+        $.ajax({
+            type: "GET",
+            url: "/Controller/Action?sortType=" + sortType,
+            success: function (data) {
+                // 在這裡更新頁面數據
+            }
+        });
+    }
+    */
+</script>

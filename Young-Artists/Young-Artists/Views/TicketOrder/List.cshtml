@@ -1,0 +1,149 @@
+﻿@*@model IEnumerable<Young_Artists.Models.TicketOrder>*@
+@model X.PagedList.IPagedList<Young_Artists.Models.TicketOrder>
+@using X.PagedList;
+@using X.PagedList.Mvc.Core;
+@{
+    ViewData["Title"] = "List";
+}
+<script src="~/js/jquery-3.6.3.js"></script>
+<link href="~/css/PagedList.css" rel="stylesheet" />
+
+<div class="pagetitle">
+    <h1>訂單明細列表</h1>
+</div>
+<div class="card">
+    <div class="card-body">
+        @using (Html.BeginForm())
+        {
+            <div class="my-4">
+                <lable class="card-title">請輸入會員id</lable>
+                @Html.TextBox("id")
+                <input type="submit" value="查詢" />
+            </div>
+        }
+        <div class="d-flex mb-3">
+            <div class="btn-group me-3">
+                <a class="nav-link dropdown-toggle text-white btn btn-primary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    訂單明細管理
+                </a>
+                <ul class="dropdown-menu position-absolute right">
+                    <li><a class="dropdown-item " href="~/TicketOrder/List">回到訂單明細列表</a></li>
+                    <li><a class="dropdown-item " href="~/TicketOrder/Create">後端建立新訂單明細</a></li>
+                    <li><a class="dropdown-item " href="~/FrontCode/Buy">前端建立新訂單明細</a></li>
+
+                </ul>
+            </div>
+            <div class="btn-group me-3">
+                <a class="nav-link dropdown-toggle text-white btn btn-primary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    查看訂單中的票
+                </a>
+                <ul class="dropdown-menu position-absolute right">
+                    <li><a class="dropdown-item " href="~/TicketOrder/List_Detail">查看全體訂單中的票</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="card">
+    <div class="card-body">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FirstOrDefault().OrderId)
+                        @Html.ActionLink("", "List", new { sortTicketOrder = "UpOrderId" },new {Class="bi bi-caret-up-fill",onclick="setSortCustomer('UpOrderId')"})
+                        @Html.ActionLink("", "List", new { sortTicketOrder = "DownOrderId" },new {Class="bi bi-caret-down-fill",onclick="setSortCustomer('DownOrderId')"})
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FirstOrDefault().OrderTotalPrice)
+                        @Html.ActionLink("", "List", new { sortTicketOrder = "UpOrderTotalPrice" },new {Class="bi bi-caret-up-fill",onclick="setSortCustomer('UpOrderTotalPrice')"})
+                        @Html.ActionLink("", "List", new { sortTicketOrder = "DownOrderTotalPrice" },new {Class="bi bi-caret-down-fill",onclick="setSortCustomer('DownOrderTotalPrice')"})
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FirstOrDefault().OrderCreateTimestamp)
+                        @Html.ActionLink("", "List", new { sortTicketOrder = "UpOrderCreateTimestamp" },new {Class="bi bi-caret-up-fill",onclick="setSortCustomer('UpOrderCreateTimestamp')"})
+                        @Html.ActionLink("", "List", new { sortTicketOrder = "DownOrderCreateTimestamp" },new {Class="bi bi-caret-down-fill",onclick="setSortCustomer('DownOrderCreateTimestamp')"})
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FirstOrDefault().OrderUpdateTimestamp)
+                        @Html.ActionLink("", "List", new { sortTicketOrder = "UpOrderUpdateTimestamp" },new {Class="bi bi-caret-up-fill",onclick="setSortCustomer('UpOrderUpdateTimestamp')"})
+                        @Html.ActionLink("", "List", new { sortTicketOrder = "DownOrderUpdateTimestamp" },new {Class="bi bi-caret-down-fill",onclick="setSortCustomer('DownOrderUpdateTimestamp')"})
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FirstOrDefault().OrderUpdateId)
+                        @Html.ActionLink("", "List", new { sortTicketOrder = "UpOrderUpdateId" },new {Class="bi bi-caret-up-fill",onclick="setSortCustomer('UpOrderUpdateId')"})
+                        @Html.ActionLink("", "List", new { sortTicketOrder = "DownOrderUpdateId" },new {Class="bi bi-caret-down-fill",onclick="setSortCustomer('DownOrderUpdateId')"})
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FirstOrDefault().OrderState)
+                        @Html.ActionLink("", "List", new { sortTicketOrder = "UpOrderState" },new {Class="bi bi-caret-up-fill",onclick="setSortCustomer('UpOrderState')"})
+                        @Html.ActionLink("", "List", new { sortTicketOrder = "DownOrderState" },new {Class="bi bi-caret-down-fill",onclick="setSortCustomer('DownOrderState')"})
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FirstOrDefault().CustomerId)
+                        @Html.ActionLink("", "List", new { sortTicketOrder = "UpCustomerId" },new {Class="bi bi-caret-up-fill",onclick="setSortCustomer('UpCustomerId')"})
+                        @Html.ActionLink("", "List", new { sortTicketOrder = "DownCustomerId" },new {Class="bi bi-caret-down-fill",onclick="setSortCustomer('DownCustomerId')"})
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+
+                        <td>
+                            @Html.DisplayFor(modelItem => item.OrderId)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.OrderTotalPrice)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.OrderCreateTimestamp)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.OrderUpdateTimestamp)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.OrderUpdateId)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.OrderState)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CustomerId)
+                        </td>
+
+                        <td>
+                            <div class="d-flex justify-content-end">
+                                <div>
+                                    @Html.ActionLink("", "Edit","TicketOrder", new { id = item.OrderId } , new{@class = "btn btn-warning bi bi-brush text-white"})
+                                </div>
+                                <div class="ms-3">
+                                    @Html.ActionLink("", "Delete", "TicketOrder", new { id = item.Id },new { onclick = "return confirm('是否確定要刪除此訂單?')",@class = "btn btn-danger bi bi-trash3 text-white" })
+                                </div>
+                                <div class="ms-3">
+                                    @Html.ActionLink("查看詳細資料", "List_Detail", "TicketOrder", new { id = item.OrderId },new { @class = "btn btn-primary" })
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <div id="Pager">
+            @Html.PagedListPager(Model, page => Url.Action("List", new {sortCommodity = ViewBag.sortBy, page }))
+        </div>
+    </div>
+</div>
+
+<style>
+    #Pager {
+        display:flex;
+        justify-content:center;
+    }
+    * {
+        font-size: 15px;
+    }
+
+</style>

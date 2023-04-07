@@ -1,0 +1,70 @@
+﻿@model IEnumerable<Young_Artists.ViewModels.DetailsViewModels>
+
+@{
+    ViewData["Title"] = "List";
+}
+<div class="pagetitle">
+    <h1>客戶資料一覽表</h1>
+</div><!-- End Page Title -->
+<div class="card">
+    <div class="card-body">
+
+
+        <p>
+            <a asp-action="Create" text-decoration:none class="btn btn-primary">新增異動資訊</a>
+        </p>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th width="50">
+                        序號
+                    </th>
+                    <th width="110">
+                        @Html.DisplayNameFor(model => model.Eventtime)
+                    </th>
+                    <th width="150" >
+                        活動名稱
+                    </th>
+                    <th width="100" >
+                        @Html.DisplayNameFor(model => model.State)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Reason)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    int count = 0;
+                    foreach (var item in Model)
+                    {
+                        count++;
+                        <tr>
+                            <td>
+                                @count
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Eventtime)
+                            </td>
+
+                            <td>
+                                @Html.DisplayFor(modelItem => item.EventName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.State)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Reason)
+                            </td>
+                            <td>
+                                @Html.ActionLink("", "Edit", new {  id=item.DetailsId },new {Class ="btn btn-warning bi bi-brush text-white"})
+                                @Html.ActionLink("", "Delete" , new { id=item.DetailsId } ,new { onclick ="return confirm('確定要刪除嗎?')" ,Class = "btn btn-danger bi bi-trash3 text-white"})
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

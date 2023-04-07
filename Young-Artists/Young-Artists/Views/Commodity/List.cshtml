@@ -1,0 +1,213 @@
+﻿@model X.PagedList.IPagedList<Young_Artists.Models.Commodity>
+@using X.PagedList;
+@using X.PagedList.Mvc.Core;
+
+@{
+    ViewData["Title"] = "List";
+}
+<script src="~/js/jquery-3.6.3.js"></script>
+<link href="~/css/PagedList.css" rel="stylesheet" />
+<div class="pagetitle">
+    <h1>商品清單</h1>
+    <section class="section">
+        <div class="row">
+            <div class="col-lg-6">
+            </div><!-- End Page Title -->
+
+            <p>
+                <a asp-action="Create" class="btn btn-primary">新增</a>
+            </p>
+            <div style="display:flex">
+                <div class="d-flex me-3">
+                    <form action="@Url.Action("BatchOnLine", "Commodity")" method="post">
+                        <input type="hidden" id="chkVal1" name="chkVal1">
+                        <input type="submit" value="批量上架" class="btn btn-primary">
+                    </form>
+                </div>
+                <div class="d-flex me-3">
+                    <form action="@Url.Action("BatchOffLine", "Commodity")" method="post">
+                        <input type="hidden" id="chkVal2" name="chkVal2">
+                        <input type="submit" value="批量下架" class="btn btn-primary">
+                    </form>
+               </div>
+                <div class="d-flex me-3">
+                    <form action="@Url.Action("BatchDelect", "Commodity")" method="post">
+                        <input type="hidden" id="chkVal3" name="chkVal3">
+                        <input type="submit" value="批量刪除" class="btn btn-danger">
+                    </form>
+                </div>
+            </div>
+
+            @*<div>
+                <input type="hidden" id="chkVal" name="chkVal">
+                <form action="@Url.Action("BatchOnLine", "Commodity")" method="post">
+                    <input type="hidden" name="chkVal">
+                    <input type="submit" value="批量上架" class="btn btn-primary">
+                </form>
+                <form action="@Url.Action("BatchOffLine", "Commodity")" method="post">
+                    <input type="hidden" name="chkVal">
+                    <input type="submit" value="批量下架" class="btn btn-primary">
+                </form>
+                <form action="@Url.Action("BatchDelect", "Commodity")" method="post">
+                    <input type="hidden" name="chkVal">
+                    <input type="submit" value="批量刪除" class="btn btn-primary">
+                </form>
+            </div>*@
+            @*<form>
+                <input type="hidden" id="chkVal" name="chkVal">
+                <input type="submit" value="批量上架" class="btn btn-primary" onclick="submitForm('BatchOnLine')">
+                <input type="submit" value="批量下架" class="btn btn-primary" onclick="submitForm('BatchOffLine')">
+                <input type="submit" value="批量刪除" class="btn btn-primary" onclick="submitForm('BatchDelect')">
+            </form>*@
+            
+            <table class="table table-hover">
+                <thead>
+                    <input type="hidden" id="sort" name="sort">
+                    <tr>
+                        <th>
+                            <label class="mt-checkbox mt-checkbox-single mt-checkbox-outline">
+                                <input id="btnCheckAll" type="checkbox" />
+                                <span>全選</span>
+                            </label>
+                            @Html.DisplayNameFor(model => model.FirstOrDefault().Id)
+                            @Html.ActionLink("", "List", new { sortCommodity = "UpCommodityId" },new {Class="bi bi-caret-up-fill",onclick="setSortCommodity('UpCommodityId')"})
+                            @Html.ActionLink("", "List", new { sortCommodity = "DownCommodityId" },new {Class="bi bi-caret-down-fill",onclick="setSortCommodity('DownCommodityId')"})
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.FirstOrDefault().CommodityName)
+                            @Html.ActionLink("", "List", new { sortCommodity = "UpCommodityName" },new {Class="bi bi-caret-up-fill",onclick="setSortCommodity('UpCommodityName')"})
+                            @Html.ActionLink("", "List", new { sortCommodity = "DownCommodityName" },new {Class="bi bi-caret-down-fill",onclick="setSortCommodity('DownCommodityName')"})
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.FirstOrDefault().CommodityNarrative)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.FirstOrDefault().CommodityNum)
+                            @Html.ActionLink("", "List", new { sortCommodity = "UpCommodityNum",@sortBy="UpCommodityNum" },new {Class="bi bi-caret-up-fill",onclick="setSortCommodity('UpCommodityNum')"})
+                            @Html.ActionLink("", "List", new { sortCommodity = "DownCommodityNum",@sortBy="UpCommodityNum" },new {Class="bi bi-caret-down-fill",onclick="setSortCommodity('UpCommodityNum')"})
+
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.FirstOrDefault().CommodityPrice)
+                            @Html.ActionLink("", "List", new { sortCommodity = "UpCommodityPrice" },new {Class="bi bi-caret-up-fill",onclick="setSortCommodity('UpCommodityPrice')"})
+                            @Html.ActionLink("", "List", new { sortCommodity = "DownCommodityPrice" },new {Class="bi bi-caret-down-fill",onclick="setSortCommodity('DownCommodityPrice')"})
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.FirstOrDefault().CommodityImage)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.FirstOrDefault().CommodityStart)
+                            @Html.ActionLink("", "List", new { sortCommodity = "UpCommodityStart" },new {Class="bi bi-caret-up-fill",onclick="setSortCommodity('UpCommodityStart')"})
+                            @Html.ActionLink("", "List", new { sortCommodity = "DownCommodityStart" },new {Class="bi bi-caret-down-fill",onclick="setSortCommodity('DownCommodityStart')"})
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.FirstOrDefault().CommodityClassification)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.FirstOrDefault().CommodityState)
+                            @Html.ActionLink("", "List", new { sortCommodity = "UpCommodityState" },new {Class="bi bi-caret-up-fill",onclick="setSortCommodity('UpCommodityState')"})
+                            @Html.ActionLink("", "List", new { sortCommodity = "DownCommodityState" },new {Class="bi bi-caret-down-fill",onclick="setSortCommodity('DownCommodityState')"})
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{
+                        foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    <label>
+                                        <input type="checkbox" name="ck" value="@item.Id"/>
+                                    </label>
+                                    @Html.DisplayFor(modelItem => item.Id)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.CommodityName)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.CommodityNarrative)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.CommodityNum)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.CommodityPrice)
+                                </td>
+                                <td>
+                                    <img src="~/Images/@item.CommodityImage" width="80" height="50" />
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.CommodityStart)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.CommodityClassification)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.CommodityState)
+                                </td>
+                                <td>
+                                    @Html.ActionLink("", "Edit", new { id=item.Id  },new{Class="btn btn-warning bi bi-brush text-white"})
+                                    @Html.ActionLink("", "OnLine", new {  id=item.Id },new { Class = "btn btn-primary bi bi-arrow-down-up"})
+                                    @Html.ActionLink("", "Delete","Commodity", new { id=item.Id },new {Class="btn btn-danger bi bi-trash3 text-white",onclick = "return confirm('確定要刪除嗎?')"})
+                                </td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+            @Html.PagedListPager(Model, page => Url.Action("List", new {sortCommodity = ViewBag.sortBy, page }))
+           
+            <script>
+                var sortType = "";
+                let chkVal = [];
+                $("#btnCheckAll").click(function () {
+                    chkVal = [];
+                    if ($("#btnCheckAll").prop("checked")) {
+                        $("input[name='ck']").each(function () {
+                            $(this).prop("checked", true);
+                            chkVal.push($(this).val());
+                        });
+                    } else {
+                        $("input[name='ck']").each(function () {
+                            $(this).prop("checked", false);
+                        });
+                    }
+                    console.log(chkVal);
+                    $("#chkVal1").val(JSON.stringify(chkVal));
+                    $("#chkVal2").val(JSON.stringify(chkVal));
+                    $("#chkVal3").val(JSON.stringify(chkVal));
+                });
+                $("input[name='ck']").change(function () {
+                    if ($(this).prop("checked")) {
+                        chkVal.push($(this).val());
+                    } else {
+                        var index = chkVal.indexOf($(this).val());
+                        if (index > -1) {
+                            chkVal.splice(index, 1);
+                        }
+                    }
+                    console.log(chkVal);
+                    $("#chkVal1").val(JSON.stringify(chkVal));
+                    $("#chkVal2").val(JSON.stringify(chkVal));
+                    $("#chkVal3").val(JSON.stringify(chkVal));
+                });
+                //排序分頁保存資料
+                function setSortCommodity(SortCommodity) {
+                    $(".sort") = SortCommodity;
+                    console.log(sortType);
+                }
+                //測試方法
+                /*function setSortCommodity(sortType) {
+                    $.ajax({
+                        type: "GET",
+                        url: "/Controller/Action?sortType=" + sortType,
+                        success: function (data) {
+                            // 在這裡更新頁面數據
+                        }
+                    });
+                }
+                */
+            </script>
+            
+
