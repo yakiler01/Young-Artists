@@ -8416,12 +8416,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\fe91ddb4-7645-4c3f-92be-f2afc920cdfc.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\保溫瓶｜莫內《日本橋》＋梵谷《星夜》.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\ゅ美確砍竒ㄥ璉砋μ秨膀霉紈焊滇.png))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>Images/保溫瓶｜莫內《日本橋》＋梵谷《星夜》.png</RelativePath>
+      <RelativePath>Images/ゅ美確砍竒ㄥ璉砋μ秨膀霉紈焊滇.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -8430,14 +8430,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\保溫瓶｜莫內《日本橋》＋梵谷《星夜》.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\ゅ美確砍竒ㄥ璉砋μ秨膀霉紈焊滇.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\光之影海洋展｜經典背袋 深藍.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\ゅ美確砍美砃瞅溉μ秨膀霉紈焊滇.png))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>Images/光之影海洋展｜經典背袋 深藍.png</RelativePath>
+      <RelativePath>Images/ゅ美確砍美砃瞅溉μ秨膀霉紈焊滇.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -8446,14 +8446,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\光之影海洋展｜經典背袋 深藍.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\ゅ美確砍美砃瞅溉μ秨膀霉紈焊滇.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\光之影海洋展｜經典背袋 白 .png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\ゅ美確砍翴み狹絃舱-猧矗蝴吹较ネ.png))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>Images/光之影海洋展｜經典背袋 白 .png</RelativePath>
+      <RelativePath>Images/ゅ美確砍翴み狹絃舱-猧矗蝴吹较ネ.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -8462,14 +8462,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\光之影海洋展｜經典背袋 白 .png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\ゅ美確砍翴み狹絃舱-猧矗蝴吹较ネ.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\文藝復興大絲巾-拉斐爾《雅典學院》.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\ゅ美確砍菲公乖猧矗淮.png))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>Images/文藝復興大絲巾-拉斐爾《雅典學院》.png</RelativePath>
+      <RelativePath>Images/ゅ美確砍菲公乖猧矗淮.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -8478,14 +8478,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\文藝復興大絲巾-拉斐爾《雅典學院》.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\ゅ美確砍菲公乖猧矗淮.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\文藝復興大絲巾-拉斐爾《雅典學院》2.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\ゅ美確砍捣-┰创焊懂ㄥ厩皘.png))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>Images/文藝復興大絲巾-拉斐爾《雅典學院》2.png</RelativePath>
+      <RelativePath>Images/ゅ美確砍捣-┰创焊懂ㄥ厩皘.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -8494,14 +8494,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\文藝復興大絲巾-拉斐爾《雅典學院》2.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\ゅ美確砍捣-┰创焊懂ㄥ厩皘.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\文藝復興滑鼠墊｜波提且利《年輕女子》.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\ゅ美確砍捣-┰创焊懂ㄥ厩皘2.png))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>Images/文藝復興滑鼠墊｜波提且利《年輕女子》.png</RelativePath>
+      <RelativePath>Images/ゅ美確砍捣-┰创焊懂ㄥ厩皘2.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -8510,14 +8510,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\文藝復興滑鼠墊｜波提且利《年輕女子》.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\ゅ美確砍捣-┰创焊懂ㄥ厩皘2.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\文藝復興經典背袋｜米開朗基羅《德爾菲女先知》.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\玂放瞺馋ずらセ爵∠彪é琍.png))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>Images/文藝復興經典背袋｜米開朗基羅《德爾菲女先知》.png</RelativePath>
+      <RelativePath>Images/玂放瞺馋ずらセ爵∠彪é琍.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -8526,14 +8526,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\文藝復興經典背袋｜米開朗基羅《德爾菲女先知》.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\玂放瞺馋ずらセ爵∠彪é琍.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\文藝復興藝術圍裙｜米開朗基羅《德爾菲女先知》.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\皑狹μ秨膀霉 承.png))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>Images/文藝復興藝術圍裙｜米開朗基羅《德爾菲女先知》.png</RelativePath>
+      <RelativePath>Images/皑狹μ秨膀霉 承.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -8542,14 +8542,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\文藝復興藝術圍裙｜米開朗基羅《德爾菲女先知》.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\皑狹μ秨膀霉 承.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\文藝復興點心杯盤組-波提且利《維納斯的誕生.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\美砃合ΙΛ疭-ニ履ńκ毙绑 美砃合ΙΛ疭κ毙绑.png))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>Images/文藝復興點心杯盤組-波提且利《維納斯的誕生.png</RelativePath>
+      <RelativePath>Images/美砃合ΙΛ疭-ニ履ńκ毙绑 美砃合ΙΛ疭κ毙绑.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -8558,14 +8558,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\文藝復興點心杯盤組-波提且利《維納斯的誕生.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\美砃合ΙΛ疭-ニ履ńκ毙绑 美砃合ΙΛ疭κ毙绑.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\藝術磁扣托特包-瓦薩里《百花大教堂》 【藝術磁扣托特包《百花大教堂》】.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\美砃吵病羚乖μ秨膀霉承.png))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>Images/藝術磁扣托特包-瓦薩里《百花大教堂》 【藝術磁扣托特包《百花大教堂》】.png</RelativePath>
+      <RelativePath>Images/美砃吵病羚乖μ秨膀霉承.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -8574,14 +8574,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\藝術磁扣托特包-瓦薩里《百花大教堂》 【藝術磁扣托特包《百花大教堂》】.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\美砃吵病羚乖μ秨膀霉承.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\藝術經典背袋｜莫內《睡蓮和柳樹＋日本橋》.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\美砃竒ㄥ璉砋馋ず何浆㎝琱攫∠らセ爵.png))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>Images/藝術經典背袋｜莫內《睡蓮和柳樹＋日本橋》.png</RelativePath>
+      <RelativePath>Images/美砃竒ㄥ璉砋馋ず何浆㎝琱攫∠らセ爵.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -8590,14 +8590,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\藝術經典背袋｜莫內《睡蓮和柳樹＋日本橋》.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\美砃竒ㄥ璉砋馋ず何浆㎝琱攫∠らセ爵.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\藝術自動折傘｜《光之影海洋展》.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\美砃笆ч呈ぇ紇瑅甶.png))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>Images/藝術自動折傘｜《光之影海洋展》.png</RelativePath>
+      <RelativePath>Images/美砃笆ч呈ぇ紇瑅甶.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -8606,14 +8606,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\藝術自動折傘｜《光之影海洋展》.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\美砃笆ч呈ぇ紇瑅甶.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\藝術陶瓷鍋墊｜米開朗基羅《創世紀》.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\ぇ紇瑅甶竒ㄥ璉砋 フ .png))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>Images/藝術陶瓷鍋墊｜米開朗基羅《創世紀》.png</RelativePath>
+      <RelativePath>Images/ぇ紇瑅甶竒ㄥ璉砋 フ .png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -8622,14 +8622,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\藝術陶瓷鍋墊｜米開朗基羅《創世紀》.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\ぇ紇瑅甶竒ㄥ璉砋 フ .png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\馬克杯｜米開朗基羅 《創世紀》.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\ぇ紇瑅甶竒ㄥ璉砋 瞏屡.png))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>Images/馬克杯｜米開朗基羅 《創世紀》.png</RelativePath>
+      <RelativePath>Images/ぇ紇瑅甶竒ㄥ璉砋 瞏屡.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -8638,7 +8638,7 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\馬克杯｜米開朗基羅 《創世紀》.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\ぇ紇瑅甶竒ㄥ璉砋 瞏屡.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\jquery-3.6.3.js))">
       <SourceType>Package</SourceType>
@@ -9584,12 +9584,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\LICENSE.txt))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\.gitignore))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\.gitignore))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/.gitignore</RelativePath>
+      <RelativePath>vue-拟盿/.gitignore</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -9598,14 +9598,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\.gitignore))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\.gitignore))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\package-lock.json))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\package-lock.json))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/package-lock.json</RelativePath>
+      <RelativePath>vue-拟盿/package-lock.json</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -9614,14 +9614,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\package-lock.json))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\package-lock.json))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\package.json))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\package.json))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/package.json</RelativePath>
+      <RelativePath>vue-拟盿/package.json</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -9630,14 +9630,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\package.json))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\package.json))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\public\favicon.ico))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\public\favicon.ico))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/public/favicon.ico</RelativePath>
+      <RelativePath>vue-拟盿/public/favicon.ico</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -9646,14 +9646,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\public\favicon.ico))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\public\favicon.ico))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\public\index.html))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\public\index.html))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/public/index.html</RelativePath>
+      <RelativePath>vue-拟盿/public/index.html</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -9662,14 +9662,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\public\index.html))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\public\index.html))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\README.md))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\README.md))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/README.md</RelativePath>
+      <RelativePath>vue-拟盿/README.md</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -9678,14 +9678,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\README.md))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\README.md))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\App.vue))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\App.vue))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/App.vue</RelativePath>
+      <RelativePath>vue-拟盿/src/App.vue</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -9694,14 +9694,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\App.vue))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\App.vue))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\assets\logo.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\assets\logo.png))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/assets/logo.png</RelativePath>
+      <RelativePath>vue-拟盿/src/assets/logo.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -9710,14 +9710,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\assets\logo.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\assets\logo.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\components\1_first.vue))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\components\1_first.vue))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/components/1_first.vue</RelativePath>
+      <RelativePath>vue-拟盿/src/components/1_first.vue</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -9726,14 +9726,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\components\1_first.vue))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\components\1_first.vue))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\components\2.0_test.html))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\components\2.0_test.html))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/components/2.0_test.html</RelativePath>
+      <RelativePath>vue-拟盿/src/components/2.0_test.html</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -9742,14 +9742,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\components\2.0_test.html))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\components\2.0_test.html))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\components\2_表單_下拉式選單.vue))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\components\2_虫_┰Α匡虫.vue))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/components/2_表單_下拉式選單.vue</RelativePath>
+      <RelativePath>vue-拟盿/src/components/2_虫_┰Α匡虫.vue</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -9758,14 +9758,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\components\2_表單_下拉式選單.vue))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\components\2_虫_┰Α匡虫.vue))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\components\3.0_test.html))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\components\3.0_test.html))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/components/3.0_test.html</RelativePath>
+      <RelativePath>vue-拟盿/src/components/3.0_test.html</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -9774,14 +9774,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\components\3.0_test.html))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\components\3.0_test.html))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\components\3_計算屬性.vue))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\components\3_璸衡妮┦.vue))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/components/3_計算屬性.vue</RelativePath>
+      <RelativePath>vue-拟盿/src/components/3_璸衡妮┦.vue</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -9790,14 +9790,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\components\3_計算屬性.vue))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\components\3_璸衡妮┦.vue))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\components\4_todoList.vue))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\components\4_todoList.vue))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/components/4_todoList.vue</RelativePath>
+      <RelativePath>vue-拟盿/src/components/4_todoList.vue</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -9806,14 +9806,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\components\4_todoList.vue))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\components\4_todoList.vue))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\components\5_vue的生命週期.vue))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\components\5_vueネ㏑秅戳.vue))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/components/5_vue的生命週期.vue</RelativePath>
+      <RelativePath>vue-拟盿/src/components/5_vueネ㏑秅戳.vue</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -9822,14 +9822,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\components\5_vue的生命週期.vue))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\components\5_vueネ㏑秅戳.vue))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\components\6_watch.vue))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\components\6_watch.vue))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/components/6_watch.vue</RelativePath>
+      <RelativePath>vue-拟盿/src/components/6_watch.vue</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -9838,14 +9838,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\components\6_watch.vue))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\components\6_watch.vue))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\components\card.vue))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\components\card.vue))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/components/card.vue</RelativePath>
+      <RelativePath>vue-拟盿/src/components/card.vue</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -9854,14 +9854,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\components\card.vue))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\components\card.vue))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\components\fetch.vue))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\components\fetch.vue))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/components/fetch.vue</RelativePath>
+      <RelativePath>vue-拟盿/src/components/fetch.vue</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -9870,14 +9870,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\components\fetch.vue))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\components\fetch.vue))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\components\HelloWorld.vue))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\components\HelloWorld.vue))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/components/HelloWorld.vue</RelativePath>
+      <RelativePath>vue-拟盿/src/components/HelloWorld.vue</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -9886,14 +9886,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\components\HelloWorld.vue))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\components\HelloWorld.vue))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\components\son.vue))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\components\son.vue))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/components/son.vue</RelativePath>
+      <RelativePath>vue-拟盿/src/components/son.vue</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -9902,14 +9902,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\components\son.vue))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\components\son.vue))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\components\vue.global.js))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\components\vue.global.js))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/components/vue.global.js</RelativePath>
+      <RelativePath>vue-拟盿/src/components/vue.global.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -9918,14 +9918,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\components\vue.global.js))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\components\vue.global.js))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\main.ts))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\main.ts))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/main.ts</RelativePath>
+      <RelativePath>vue-拟盿/src/main.ts</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -9934,14 +9934,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\main.ts))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\main.ts))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\router\index.ts))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\router\index.ts))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/router/index.ts</RelativePath>
+      <RelativePath>vue-拟盿/src/router/index.ts</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -9950,14 +9950,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\router\index.ts))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\router\index.ts))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\shims-vue.d.ts))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\shims-vue.d.ts))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/shims-vue.d.ts</RelativePath>
+      <RelativePath>vue-拟盿/src/shims-vue.d.ts</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -9966,14 +9966,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\shims-vue.d.ts))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\shims-vue.d.ts))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\store\index.ts))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\store\index.ts))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/store/index.ts</RelativePath>
+      <RelativePath>vue-拟盿/src/store/index.ts</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -9982,14 +9982,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\store\index.ts))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\store\index.ts))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\views\iii.vue))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\views\iii.vue))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/views/iii.vue</RelativePath>
+      <RelativePath>vue-拟盿/src/views/iii.vue</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -9998,14 +9998,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\views\iii.vue))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\views\iii.vue))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\06ea2456-605e-4304-ada8-b66590192a28.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\06ea2456-605e-4304-ada8-b66590192a28.png))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/06ea2456-605e-4304-ada8-b66590192a28.png</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/06ea2456-605e-4304-ada8-b66590192a28.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10014,14 +10014,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\06ea2456-605e-4304-ada8-b66590192a28.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\06ea2456-605e-4304-ada8-b66590192a28.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\0d66905e-fc4f-4ffb-8531-3134b91f1a7d.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\0d66905e-fc4f-4ffb-8531-3134b91f1a7d.png))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/0d66905e-fc4f-4ffb-8531-3134b91f1a7d.png</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/0d66905e-fc4f-4ffb-8531-3134b91f1a7d.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10030,14 +10030,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\0d66905e-fc4f-4ffb-8531-3134b91f1a7d.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\0d66905e-fc4f-4ffb-8531-3134b91f1a7d.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\11e14678-841d-41ce-a327-b480679d7c54.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\11e14678-841d-41ce-a327-b480679d7c54.png))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/11e14678-841d-41ce-a327-b480679d7c54.png</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/11e14678-841d-41ce-a327-b480679d7c54.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10046,14 +10046,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\11e14678-841d-41ce-a327-b480679d7c54.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\11e14678-841d-41ce-a327-b480679d7c54.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\171c8045-3ac4-4dbb-903f-c934988acc56.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\171c8045-3ac4-4dbb-903f-c934988acc56.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/171c8045-3ac4-4dbb-903f-c934988acc56.jpg</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/171c8045-3ac4-4dbb-903f-c934988acc56.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10062,14 +10062,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\171c8045-3ac4-4dbb-903f-c934988acc56.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\171c8045-3ac4-4dbb-903f-c934988acc56.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\18a85db9-d4b4-4cfe-b014-075091e6a3fb.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\18a85db9-d4b4-4cfe-b014-075091e6a3fb.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/18a85db9-d4b4-4cfe-b014-075091e6a3fb.jpg</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/18a85db9-d4b4-4cfe-b014-075091e6a3fb.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10078,14 +10078,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\18a85db9-d4b4-4cfe-b014-075091e6a3fb.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\18a85db9-d4b4-4cfe-b014-075091e6a3fb.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\1b6837c9-5224-4c9c-a373-3067ce9b4ce5.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\1b6837c9-5224-4c9c-a373-3067ce9b4ce5.png))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/1b6837c9-5224-4c9c-a373-3067ce9b4ce5.png</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/1b6837c9-5224-4c9c-a373-3067ce9b4ce5.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10094,14 +10094,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\1b6837c9-5224-4c9c-a373-3067ce9b4ce5.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\1b6837c9-5224-4c9c-a373-3067ce9b4ce5.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\219b6d2b-3204-412b-9b23-dbd3d4001d0a.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\219b6d2b-3204-412b-9b23-dbd3d4001d0a.png))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/219b6d2b-3204-412b-9b23-dbd3d4001d0a.png</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/219b6d2b-3204-412b-9b23-dbd3d4001d0a.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10110,14 +10110,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\219b6d2b-3204-412b-9b23-dbd3d4001d0a.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\219b6d2b-3204-412b-9b23-dbd3d4001d0a.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\226cf828-8112-4299-b680-4575ad14fb3a.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\226cf828-8112-4299-b680-4575ad14fb3a.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/226cf828-8112-4299-b680-4575ad14fb3a.jpg</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/226cf828-8112-4299-b680-4575ad14fb3a.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10126,14 +10126,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\226cf828-8112-4299-b680-4575ad14fb3a.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\226cf828-8112-4299-b680-4575ad14fb3a.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\24814ae5-2a71-4dc6-941d-771ce7e82d7b.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\24814ae5-2a71-4dc6-941d-771ce7e82d7b.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/24814ae5-2a71-4dc6-941d-771ce7e82d7b.jpg</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/24814ae5-2a71-4dc6-941d-771ce7e82d7b.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10142,14 +10142,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\24814ae5-2a71-4dc6-941d-771ce7e82d7b.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\24814ae5-2a71-4dc6-941d-771ce7e82d7b.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\2eabd887-59c5-42cc-a9ac-956297898f60.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\2eabd887-59c5-42cc-a9ac-956297898f60.png))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/2eabd887-59c5-42cc-a9ac-956297898f60.png</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/2eabd887-59c5-42cc-a9ac-956297898f60.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10158,14 +10158,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\2eabd887-59c5-42cc-a9ac-956297898f60.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\2eabd887-59c5-42cc-a9ac-956297898f60.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\37176e5d-98f0-4f60-98a4-d5d04c5fd72d.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\37176e5d-98f0-4f60-98a4-d5d04c5fd72d.png))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/37176e5d-98f0-4f60-98a4-d5d04c5fd72d.png</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/37176e5d-98f0-4f60-98a4-d5d04c5fd72d.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10174,14 +10174,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\37176e5d-98f0-4f60-98a4-d5d04c5fd72d.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\37176e5d-98f0-4f60-98a4-d5d04c5fd72d.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\3900dd75-1fca-4f37-b724-1a48caf2b12c.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\3900dd75-1fca-4f37-b724-1a48caf2b12c.png))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/3900dd75-1fca-4f37-b724-1a48caf2b12c.png</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/3900dd75-1fca-4f37-b724-1a48caf2b12c.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10190,14 +10190,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\3900dd75-1fca-4f37-b724-1a48caf2b12c.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\3900dd75-1fca-4f37-b724-1a48caf2b12c.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\3bd2c635-089f-48d2-9fa8-0ff30aec9949.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\3bd2c635-089f-48d2-9fa8-0ff30aec9949.png))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/3bd2c635-089f-48d2-9fa8-0ff30aec9949.png</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/3bd2c635-089f-48d2-9fa8-0ff30aec9949.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10206,14 +10206,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\3bd2c635-089f-48d2-9fa8-0ff30aec9949.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\3bd2c635-089f-48d2-9fa8-0ff30aec9949.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\3c66074a-c201-486c-b989-4342487288d7.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\3c66074a-c201-486c-b989-4342487288d7.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/3c66074a-c201-486c-b989-4342487288d7.jpg</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/3c66074a-c201-486c-b989-4342487288d7.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10222,14 +10222,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\3c66074a-c201-486c-b989-4342487288d7.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\3c66074a-c201-486c-b989-4342487288d7.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\495ecf4c-5b42-4a83-bf47-cc198a519ef1.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\495ecf4c-5b42-4a83-bf47-cc198a519ef1.png))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/495ecf4c-5b42-4a83-bf47-cc198a519ef1.png</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/495ecf4c-5b42-4a83-bf47-cc198a519ef1.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10238,14 +10238,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\495ecf4c-5b42-4a83-bf47-cc198a519ef1.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\495ecf4c-5b42-4a83-bf47-cc198a519ef1.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\4dee852e-59d4-4ef0-a6e8-da0fd47b1a9d.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\4dee852e-59d4-4ef0-a6e8-da0fd47b1a9d.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/4dee852e-59d4-4ef0-a6e8-da0fd47b1a9d.jpg</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/4dee852e-59d4-4ef0-a6e8-da0fd47b1a9d.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10254,14 +10254,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\4dee852e-59d4-4ef0-a6e8-da0fd47b1a9d.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\4dee852e-59d4-4ef0-a6e8-da0fd47b1a9d.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\6822b8a7-7156-4a93-b226-e1afd1957291.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\6822b8a7-7156-4a93-b226-e1afd1957291.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/6822b8a7-7156-4a93-b226-e1afd1957291.jpg</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/6822b8a7-7156-4a93-b226-e1afd1957291.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10270,14 +10270,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\6822b8a7-7156-4a93-b226-e1afd1957291.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\6822b8a7-7156-4a93-b226-e1afd1957291.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\708e150f-c117-4d59-898c-1a6a22f78fb8.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\708e150f-c117-4d59-898c-1a6a22f78fb8.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/708e150f-c117-4d59-898c-1a6a22f78fb8.jpg</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/708e150f-c117-4d59-898c-1a6a22f78fb8.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10286,14 +10286,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\708e150f-c117-4d59-898c-1a6a22f78fb8.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\708e150f-c117-4d59-898c-1a6a22f78fb8.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\797a85f9-6cae-4d20-8fcd-4b010f8a8e20.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\797a85f9-6cae-4d20-8fcd-4b010f8a8e20.png))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/797a85f9-6cae-4d20-8fcd-4b010f8a8e20.png</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/797a85f9-6cae-4d20-8fcd-4b010f8a8e20.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10302,14 +10302,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\797a85f9-6cae-4d20-8fcd-4b010f8a8e20.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\797a85f9-6cae-4d20-8fcd-4b010f8a8e20.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\7eec7833-5771-42ae-9f93-39cf48620b38.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\7eec7833-5771-42ae-9f93-39cf48620b38.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/7eec7833-5771-42ae-9f93-39cf48620b38.jpg</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/7eec7833-5771-42ae-9f93-39cf48620b38.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10318,14 +10318,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\7eec7833-5771-42ae-9f93-39cf48620b38.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\7eec7833-5771-42ae-9f93-39cf48620b38.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\7fc21b0e-1c42-4d5d-aa65-0210cbff57b4.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\7fc21b0e-1c42-4d5d-aa65-0210cbff57b4.png))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/7fc21b0e-1c42-4d5d-aa65-0210cbff57b4.png</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/7fc21b0e-1c42-4d5d-aa65-0210cbff57b4.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10334,14 +10334,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\7fc21b0e-1c42-4d5d-aa65-0210cbff57b4.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\7fc21b0e-1c42-4d5d-aa65-0210cbff57b4.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\82e61071-3300-4875-bd69-2f2905e30717.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\82e61071-3300-4875-bd69-2f2905e30717.png))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/82e61071-3300-4875-bd69-2f2905e30717.png</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/82e61071-3300-4875-bd69-2f2905e30717.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10350,14 +10350,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\82e61071-3300-4875-bd69-2f2905e30717.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\82e61071-3300-4875-bd69-2f2905e30717.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\87b3b9b4-ba00-4e71-9a10-b00031ac975e.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\87b3b9b4-ba00-4e71-9a10-b00031ac975e.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/87b3b9b4-ba00-4e71-9a10-b00031ac975e.jpg</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/87b3b9b4-ba00-4e71-9a10-b00031ac975e.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10366,14 +10366,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\87b3b9b4-ba00-4e71-9a10-b00031ac975e.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\87b3b9b4-ba00-4e71-9a10-b00031ac975e.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\8fc00f05-7fd5-46fc-8ba2-cf751bcdc2e3.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\8fc00f05-7fd5-46fc-8ba2-cf751bcdc2e3.png))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/8fc00f05-7fd5-46fc-8ba2-cf751bcdc2e3.png</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/8fc00f05-7fd5-46fc-8ba2-cf751bcdc2e3.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10382,14 +10382,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\8fc00f05-7fd5-46fc-8ba2-cf751bcdc2e3.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\8fc00f05-7fd5-46fc-8ba2-cf751bcdc2e3.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\a76ebb05-6686-46e1-bd9b-76f1dcdee33a.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\a76ebb05-6686-46e1-bd9b-76f1dcdee33a.png))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/a76ebb05-6686-46e1-bd9b-76f1dcdee33a.png</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/a76ebb05-6686-46e1-bd9b-76f1dcdee33a.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10398,14 +10398,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\a76ebb05-6686-46e1-bd9b-76f1dcdee33a.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\a76ebb05-6686-46e1-bd9b-76f1dcdee33a.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\a9847dff-9b7f-48b4-ae21-5e860cf32122.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\a9847dff-9b7f-48b4-ae21-5e860cf32122.png))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/a9847dff-9b7f-48b4-ae21-5e860cf32122.png</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/a9847dff-9b7f-48b4-ae21-5e860cf32122.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10414,14 +10414,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\a9847dff-9b7f-48b4-ae21-5e860cf32122.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\a9847dff-9b7f-48b4-ae21-5e860cf32122.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\aa2dd82b-980f-41be-9be6-07eca5e16e16.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\aa2dd82b-980f-41be-9be6-07eca5e16e16.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/aa2dd82b-980f-41be-9be6-07eca5e16e16.jpg</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/aa2dd82b-980f-41be-9be6-07eca5e16e16.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10430,14 +10430,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\aa2dd82b-980f-41be-9be6-07eca5e16e16.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\aa2dd82b-980f-41be-9be6-07eca5e16e16.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\ad87c171-bbc9-4b65-a91e-0c9a4b4e020f.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\ad87c171-bbc9-4b65-a91e-0c9a4b4e020f.png))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/ad87c171-bbc9-4b65-a91e-0c9a4b4e020f.png</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/ad87c171-bbc9-4b65-a91e-0c9a4b4e020f.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10446,14 +10446,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\ad87c171-bbc9-4b65-a91e-0c9a4b4e020f.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\ad87c171-bbc9-4b65-a91e-0c9a4b4e020f.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\b3aacaed-0239-4a73-a96c-9d453c37124b.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\b3aacaed-0239-4a73-a96c-9d453c37124b.png))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/b3aacaed-0239-4a73-a96c-9d453c37124b.png</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/b3aacaed-0239-4a73-a96c-9d453c37124b.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10462,14 +10462,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\b3aacaed-0239-4a73-a96c-9d453c37124b.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\b3aacaed-0239-4a73-a96c-9d453c37124b.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\b51ca2b0-8098-4b18-b2bf-ced998854758.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\b51ca2b0-8098-4b18-b2bf-ced998854758.png))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/b51ca2b0-8098-4b18-b2bf-ced998854758.png</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/b51ca2b0-8098-4b18-b2bf-ced998854758.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10478,14 +10478,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\b51ca2b0-8098-4b18-b2bf-ced998854758.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\b51ca2b0-8098-4b18-b2bf-ced998854758.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\b70ca8c8-2dbc-45c6-a3ba-714f2d52309c.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\b70ca8c8-2dbc-45c6-a3ba-714f2d52309c.png))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/b70ca8c8-2dbc-45c6-a3ba-714f2d52309c.png</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/b70ca8c8-2dbc-45c6-a3ba-714f2d52309c.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10494,14 +10494,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\b70ca8c8-2dbc-45c6-a3ba-714f2d52309c.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\b70ca8c8-2dbc-45c6-a3ba-714f2d52309c.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\b8197992-f048-4f8d-892c-de2cc396c553.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\b8197992-f048-4f8d-892c-de2cc396c553.png))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/b8197992-f048-4f8d-892c-de2cc396c553.png</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/b8197992-f048-4f8d-892c-de2cc396c553.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10510,14 +10510,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\b8197992-f048-4f8d-892c-de2cc396c553.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\b8197992-f048-4f8d-892c-de2cc396c553.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\background.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\background.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/background.jpg</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/background.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10526,14 +10526,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\background.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\background.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\bbe59531-d716-47dd-b7cd-3d81b77943b2.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\bbe59531-d716-47dd-b7cd-3d81b77943b2.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/bbe59531-d716-47dd-b7cd-3d81b77943b2.jpg</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/bbe59531-d716-47dd-b7cd-3d81b77943b2.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10542,14 +10542,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\bbe59531-d716-47dd-b7cd-3d81b77943b2.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\bbe59531-d716-47dd-b7cd-3d81b77943b2.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\c751fbf5-b618-402d-8f0a-3298c0749705.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\c751fbf5-b618-402d-8f0a-3298c0749705.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/c751fbf5-b618-402d-8f0a-3298c0749705.jpg</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/c751fbf5-b618-402d-8f0a-3298c0749705.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10558,14 +10558,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\c751fbf5-b618-402d-8f0a-3298c0749705.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\c751fbf5-b618-402d-8f0a-3298c0749705.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\ccf26505-ba2e-492d-a726-344dee7fc0af.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\ccf26505-ba2e-492d-a726-344dee7fc0af.png))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/ccf26505-ba2e-492d-a726-344dee7fc0af.png</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/ccf26505-ba2e-492d-a726-344dee7fc0af.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10574,14 +10574,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\ccf26505-ba2e-492d-a726-344dee7fc0af.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\ccf26505-ba2e-492d-a726-344dee7fc0af.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\d27d044f-9816-4074-8145-68d961b07572.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\d27d044f-9816-4074-8145-68d961b07572.png))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/d27d044f-9816-4074-8145-68d961b07572.png</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/d27d044f-9816-4074-8145-68d961b07572.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10590,14 +10590,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\d27d044f-9816-4074-8145-68d961b07572.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\d27d044f-9816-4074-8145-68d961b07572.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\d56eb191-c5be-469d-81da-fa58593132fe.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\d56eb191-c5be-469d-81da-fa58593132fe.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/d56eb191-c5be-469d-81da-fa58593132fe.jpg</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/d56eb191-c5be-469d-81da-fa58593132fe.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10606,14 +10606,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\d56eb191-c5be-469d-81da-fa58593132fe.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\d56eb191-c5be-469d-81da-fa58593132fe.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\daaacf50-96ab-4124-81f6-3395bc123cf1.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\daaacf50-96ab-4124-81f6-3395bc123cf1.png))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/daaacf50-96ab-4124-81f6-3395bc123cf1.png</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/daaacf50-96ab-4124-81f6-3395bc123cf1.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10622,14 +10622,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\daaacf50-96ab-4124-81f6-3395bc123cf1.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\daaacf50-96ab-4124-81f6-3395bc123cf1.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\e0ab065a-2223-4c14-a981-b1e5f6baae7b.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\e0ab065a-2223-4c14-a981-b1e5f6baae7b.png))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/e0ab065a-2223-4c14-a981-b1e5f6baae7b.png</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/e0ab065a-2223-4c14-a981-b1e5f6baae7b.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10638,14 +10638,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\e0ab065a-2223-4c14-a981-b1e5f6baae7b.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\e0ab065a-2223-4c14-a981-b1e5f6baae7b.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\e1ba779f-4615-4c5a-86a8-5ef52b8eb524.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\e1ba779f-4615-4c5a-86a8-5ef52b8eb524.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/e1ba779f-4615-4c5a-86a8-5ef52b8eb524.jpg</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/e1ba779f-4615-4c5a-86a8-5ef52b8eb524.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10654,14 +10654,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\e1ba779f-4615-4c5a-86a8-5ef52b8eb524.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\e1ba779f-4615-4c5a-86a8-5ef52b8eb524.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\e57b4e6e-677a-43fd-ae8d-b31bd9710aa5.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\e57b4e6e-677a-43fd-ae8d-b31bd9710aa5.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/e57b4e6e-677a-43fd-ae8d-b31bd9710aa5.jpg</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/e57b4e6e-677a-43fd-ae8d-b31bd9710aa5.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10670,14 +10670,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\e57b4e6e-677a-43fd-ae8d-b31bd9710aa5.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\e57b4e6e-677a-43fd-ae8d-b31bd9710aa5.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\e65b3f09-8d1f-435f-a3b8-949c86575ec7.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\e65b3f09-8d1f-435f-a3b8-949c86575ec7.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/e65b3f09-8d1f-435f-a3b8-949c86575ec7.jpg</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/e65b3f09-8d1f-435f-a3b8-949c86575ec7.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10686,14 +10686,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\e65b3f09-8d1f-435f-a3b8-949c86575ec7.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\e65b3f09-8d1f-435f-a3b8-949c86575ec7.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\e67d6aa9-0633-426f-ab2f-16c61401473d.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\e67d6aa9-0633-426f-ab2f-16c61401473d.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/e67d6aa9-0633-426f-ab2f-16c61401473d.jpg</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/e67d6aa9-0633-426f-ab2f-16c61401473d.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10702,14 +10702,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\e67d6aa9-0633-426f-ab2f-16c61401473d.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\e67d6aa9-0633-426f-ab2f-16c61401473d.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\e76077ee-86f5-4332-bd5f-c527427a3638.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\e76077ee-86f5-4332-bd5f-c527427a3638.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/e76077ee-86f5-4332-bd5f-c527427a3638.jpg</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/e76077ee-86f5-4332-bd5f-c527427a3638.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10718,14 +10718,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\e76077ee-86f5-4332-bd5f-c527427a3638.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\e76077ee-86f5-4332-bd5f-c527427a3638.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\e9222b95-eed2-4bbb-8791-1d857a4199b2.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\e9222b95-eed2-4bbb-8791-1d857a4199b2.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/e9222b95-eed2-4bbb-8791-1d857a4199b2.jpg</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/e9222b95-eed2-4bbb-8791-1d857a4199b2.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10734,14 +10734,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\e9222b95-eed2-4bbb-8791-1d857a4199b2.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\e9222b95-eed2-4bbb-8791-1d857a4199b2.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\ea6efb59-c5c3-4b18-93d4-91ed07214e31.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\ea6efb59-c5c3-4b18-93d4-91ed07214e31.png))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/ea6efb59-c5c3-4b18-93d4-91ed07214e31.png</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/ea6efb59-c5c3-4b18-93d4-91ed07214e31.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10750,14 +10750,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\ea6efb59-c5c3-4b18-93d4-91ed07214e31.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\ea6efb59-c5c3-4b18-93d4-91ed07214e31.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\f3b762dd-31bf-4598-9148-b4e8df25f671.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\f3b762dd-31bf-4598-9148-b4e8df25f671.png))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/f3b762dd-31bf-4598-9148-b4e8df25f671.png</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/f3b762dd-31bf-4598-9148-b4e8df25f671.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10766,14 +10766,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\f3b762dd-31bf-4598-9148-b4e8df25f671.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\f3b762dd-31bf-4598-9148-b4e8df25f671.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\f8e9d9f5-1d80-48b2-9a92-940b55ce98a9.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\f8e9d9f5-1d80-48b2-9a92-940b55ce98a9.png))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/src/新增資料夾/f8e9d9f5-1d80-48b2-9a92-940b55ce98a9.png</RelativePath>
+      <RelativePath>vue-拟盿/src/穝糤戈Ж/f8e9d9f5-1d80-48b2-9a92-940b55ce98a9.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10782,14 +10782,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\src\新增資料夾\f8e9d9f5-1d80-48b2-9a92-940b55ce98a9.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\src\穝糤戈Ж\f8e9d9f5-1d80-48b2-9a92-940b55ce98a9.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\tsconfig.json))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\tsconfig.json))">
       <SourceType>Package</SourceType>
       <SourceId>Young-Artists</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Young-Artists</BasePath>
-      <RelativePath>vue-攜帶/tsconfig.json</RelativePath>
+      <RelativePath>vue-拟盿/tsconfig.json</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10798,7 +10798,7 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-攜帶\tsconfig.json))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vue-拟盿\tsconfig.json))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Young-Artists.bundle.scp.css))">
       <SourceType>Package</SourceType>

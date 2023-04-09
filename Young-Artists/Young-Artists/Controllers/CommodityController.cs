@@ -230,8 +230,12 @@ namespace Young_Artists.Controllers
                     Commodity x = db.Commodities.FirstOrDefault(t => t.Id == idList[i]);
                     if (x != null)
                     {
-                        x.CommodityState = true;
-                        db.SaveChangesAsync();
+                        if ((bool)!x.CommodityState)
+                        {
+                            x.CommodityState = true;
+                            db.SaveChangesAsync();
+                        }
+                        
                     }
                 }
             }
@@ -252,8 +256,12 @@ namespace Young_Artists.Controllers
                     Commodity x = db.Commodities.FirstOrDefault(t => t.Id == idList[i]);
                     if (x != null)
                     {
-                        x.CommodityState = false;
-                        db.SaveChangesAsync();
+                        if ((bool)x.CommodityState)
+                        {
+                            x.CommodityState = false;
+                            db.SaveChangesAsync();
+                        }
+                        
                     }
                 }
             }
